@@ -13,6 +13,7 @@ nodes.nodeTypes = {
     RSK: "RSK",
     EXP: "EXP",
     UBQ: "UBQ",
+    WHL: "WHL",
     Custom: "CUSTOM ETH"
 };
 nodes.ensNodeTypes = [nodes.nodeTypes.ETH, nodes.nodeTypes.Ropsten];
@@ -175,6 +176,19 @@ nodes.nodeList = {
         'estimateGas': true,
         'service': 'ubiqscan.io',
         'lib': new nodes.customNode('https://rpc1.ubiqscan.io', '')
+    },
+    'whl': {
+        'name': 'WHL',
+        'blockExplorerTX': 'https://explorer.whalecoin.org/#/transaction/[[txHash]]',
+        'blockExplorerAddr': 'https://explorer.whalecoin.org/#/address/[[address]]',
+        'type': nodes.nodeTypes.WHL,
+        'eip155': true,
+        'chainId': 30375,
+        'tokenList': [],
+        'abiList': [],
+        'estimateGas': true,
+        'service': 'whalecoin.org',
+        'lib': new nodes.customNode('http://0.0.0.0', '8545')
     }
 };
 
