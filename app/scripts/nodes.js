@@ -7,7 +7,7 @@ nodes.nodeTypes = {
     WHL: "WHL",
     Custom: "CUSTOM WHL"
 };
-nodes.ensNodeTypes = [nodes.nodeTypes.ETH, nodes.nodeTypes.Ropsten];
+nodes.ensNodeTypes = [];
 nodes.customNodeObj = {
     'name': 'CUS',
     'blockExplorerTX': '',
