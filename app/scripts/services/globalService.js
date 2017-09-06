@@ -34,6 +34,13 @@ var tabs = {
     mew: true,
     cx: true
   },
+  swap: {
+    id: 4,
+    name: "NAV_Swap",
+    url: "swap",
+    mew: false,
+    cx: false
+  },
   offlineTransaction: {
     id: 5,
     name: "NAV_Offline",
@@ -52,6 +59,13 @@ var tabs = {
     id:7,
     name: "NAV_ENS",
     url: "ens",
+    mew: false,
+    cx: false
+  },
+  txStatus: {
+    id: 8,
+    name: "NAV_CheckTxStatus",
+    url: "check-tx-status",
     mew: true,
     cx: true
   },
