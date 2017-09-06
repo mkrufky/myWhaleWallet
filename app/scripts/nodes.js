@@ -33,7 +33,7 @@ nodes.nodeList = {
         'abiList': [],
         'estimateGas': true,
         'service': 'whalecoin.org',
-        'lib': new nodes.customNode('https://explorer.whalecoin.org/gwhale, '443')
+        'lib': new nodes.customNode('https://explorer.whalecoin.org/gwhale', '443')
     }
 };
 
