@@ -34,18 +34,6 @@ nodes.nodeList = {
         'estimateGas': true,
         'service': 'whalecoin.org',
         'lib': new nodes.customNode('http://52.200.96.146', '8545')
-    },
-    'eth_mew': {
-        'name': 'ETH',
-        'blockExplorerTX': 'https://etherscan.io/tx/[[txHash]]',
-        'blockExplorerAddr': 'https://etherscan.io/address/[[address]]',
-        'type': nodes.nodeTypes.ETH,
-        'eip155': true,
-        'chainId': 1,
-        'tokenList': require('./tokens/ethTokens.json'),
-        'abiList': require('./abiDefinitions/ethAbi.json'),
-        'service': 'MyEtherWallet',
-        'lib': new nodes.customNode('https://api.myetherapi.com/eth', '')
     }
 };
 
