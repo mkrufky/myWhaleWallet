@@ -2,7 +2,7 @@
 <html lang="en" ng-app="mewApp">
 <head>
 <meta charset="utf-8">
-<title>MyEtherWallet.com</title>
+<title>MyWhaleWallet.com</title>
 <meta name="description" content="MyEtherWallet.com is a free, open-source, client-side interface for generating Ethereum wallets &amp; interacting with the blockchain easily &amp; securely. Double-check the URL ( .com ) before unlocking your wallet.">
 <link rel="canonical" href="https://www.myetherwallet.com" />
 <meta name="viewport" content="width=device-width, initial-scale=1">
@@ -34,9 +34,6 @@
 <header class="{{curNode.name}} {{curNode.service}} {{curNode.service}} nav-index-{{gService.currentTab}}" aria-label="header" ng-controller='tabsCtrl' >
 
   @@if (site === 'mew' ) {
-    <div class="small announcement annoucement-danger">
-      <div class="container">Always check the URL and look for MYETHERWALLET LLC [US] Certificate up there. Look for https://www.myetherwallet.com/. <a href="https://myetherwallet.groovehq.com/knowledge_base/topics/protecting-yourself-and-your-funds" target="_blank" rel="noopener">Be safe &amp; secure</a>.</div>
-    </div>
   }
 
     @@if (site === 'cx' ) {
@@ -49,7 +46,7 @@
     <section class="container">
       @@if (site === 'mew' ) {
         <a class="brand" href="/" aria-label="Go to homepage">
-          <img src="images/logo-myetherwallet.svg"   height="64px" width="245px" alt="MyEtherWallet" />
+          <img src="images/logo-whale.png"   height="64px" width="245px" alt="MyEtherWallet" />
         </a>
       }
       @@if (site === 'cx'  ) {

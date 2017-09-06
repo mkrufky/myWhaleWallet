@@ -514,7 +514,7 @@ HELP_4_Desc_12              : 'A pop-up will appear. Verify that the amount and 
 HELP_4_Desc_13              : 'The transaction will be submitted. The TX Hash will display. You can click that TX Hash to see it on the blockchain. ',
 
 HELP_4CX_Title              : '4) How do I send Ether using MyEtherWallet CX? ',
-HELP_4CX_Desc_1             : 'First, you need to add a wallet. Once you have done that, you have 2 options: the "QuickSend" functionality from the Chrome Extension icon or the "Send Ether" page. ',
+HELP_4CX_Desc_1             : 'First, you need to add a wallet. Once you have done that, you have 2 options: the "QuickSend" functionality from the Chrome Extension icon or the "Send WhaleCoin" page. ',
 HELP_4CX_Desc_2             : 'QuickSend: ',
 HELP_4CX_Desc_3             : 'Click the Chrome Extension Icon. ',
 HELP_4CX_Desc_4             : 'Click the "QuickSend" button. ',
@@ -525,7 +525,7 @@ HELP_4CX_Desc_8             : 'Click "Send Transaction". ',
 HELP_4CX_Desc_9             : 'Verify the address and the amount you are sending is correct. ',
 HELP_4CX_Desc_10            : 'Enter the password for that wallet. ',
 HELP_4CX_Desc_11            : 'Click "Send Transaction." ',
-HELP_4CX_Desc_12            : 'Using "Send Ether" Page ',
+HELP_4CX_Desc_12            : 'Using "Send WhaleCoin" Page ',
 
 HELP_5_Title                : '5) How do I run MyEtherWallet.com offline/locally? ',
 HELP_5_Desc_1               : 'You can run MyEtherWallet.com on your computer instead of from the GitHub servers. You can generatea a wallet completely offline and send transactions from the "Offline Transaction" page. ',
@@ -571,7 +571,7 @@ HELP_8CX_Desc_1             : 'First, all data is saved on your computer, not ou
 HELP_8CX_Desc_2             : 'That said, it is **very important** that you back up all your information for any new wallets generated with MyEtherWallet CX. That way if anything happens to MyEtherWallet CX or your computer, you still have all the information necessary to access your Ether. See the #2a for how to back up your wallets. ',
 HELP_8CX_Desc_3             : 'If for some reason MyEtherWallet CX disappears from the Chrome Store, you can find the source on Github and load it manually. See #5 above. ',
 
-HELP_9_Title                : '9) Is the "Send Ether" page offline? ',
+HELP_9_Title                : '9) Is the "Send WhaleCoin" page offline? ',
 HELP_9_Desc_1               : 'No. It needs the internet in order to get the current gas price, nonce of your account, and broadcast the transaction (aka "send"). However, it only sends the signed transaction. Your private key safely stays with you. We also now provide an "Offline Transaction" page so that you can ensure your private keys are on an offline/airgapped computer at all times. ',
 
 HELP_10_Title               : '10) How do I make an offline transaction? ',
