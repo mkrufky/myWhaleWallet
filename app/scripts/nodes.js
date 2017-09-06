@@ -4,7 +4,9 @@ nodes.customNode = require('./nodeHelpers/customNode');
 nodes.infuraNode = require('./nodeHelpers/infura');
 nodes.metamaskNode = require('./nodeHelpers/metamask');
 nodes.nodeTypes = {
-    WHL: "WHL"
+    WHL: "WHL",
+    ETH: "ETH",
+    Custom: "CUSTOM ETH"
 };
 nodes.ensNodeTypes = [nodes.nodeTypes.WHL];
 nodes.customNodeObj = {
@@ -32,8 +34,21 @@ nodes.nodeList = {
         'estimateGas': true,
         'service': 'whalecoin.org',
         'lib': new nodes.customNode('https://explorer.whalecoin.org/gwhale', '443')
+    },
+    'eth_mew': {
+        'name': 'ETH',
+        'blockExplorerTX': 'https://etherscan.io/tx/[[txHash]]',
+        'blockExplorerAddr': 'https://etherscan.io/address/[[address]]',
+        'type': nodes.nodeTypes.ETH,
+        'eip155': true,
+        'chainId': 1,
+        'tokenList': require('./tokens/ethTokens.json'),
+        'abiList': require('./abiDefinitions/ethAbi.json'),
+        'service': 'MyEtherWallet',
+        'lib': new nodes.customNode('https://api.myetherapi.com/eth', '')
     }
 };
+
 
 
 nodes.ethPrice = require('./nodeHelpers/ethPrice');
