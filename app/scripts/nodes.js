@@ -33,7 +33,7 @@ nodes.nodeList = {
         'abiList': [],
         'estimateGas': true,
         'service': 'whalecoin.org',
-        'lib': new nodes.customNode('http://52.200.96.146:8545/', '8545')
+        'lib': new nodes.customNode('http://52.200.96.146', '8545')
     },
     'eth_mew': {
         'name': 'ETH',
