@@ -6,7 +6,7 @@ nodes.metamaskNode = require('./nodeHelpers/metamask');
 nodes.nodeTypes = {
     WHL: "WHL"
 };
-nodes.ensNodeTypes = [nodes.nodeTypes.WHL;
+nodes.ensNodeTypes = [nodes.nodeTypes.WHL];
 nodes.customNodeObj = {
     'name': 'CUS',
     'blockExplorerTX': '',
