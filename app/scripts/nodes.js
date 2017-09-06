@@ -4,10 +4,9 @@ nodes.customNode = require('./nodeHelpers/customNode');
 nodes.infuraNode = require('./nodeHelpers/infura');
 nodes.metamaskNode = require('./nodeHelpers/metamask');
 nodes.nodeTypes = {
-    WHL: "WHL",
-    Custom: "CUSTOM WHL"
+    WHL: "WHL"
 };
-nodes.ensNodeTypes = [nodes.nodeTypes.WHL];
+nodes.ensNodeTypes = [nodes.nodeTypes.WHL;
 nodes.customNodeObj = {
     'name': 'CUS',
     'blockExplorerTX': '',
@@ -32,7 +31,7 @@ nodes.nodeList = {
         'abiList': [],
         'estimateGas': true,
         'service': 'whalecoin.org',
-        'lib': new nodes.customNode('http://0.0.0.0', '8545')
+        'lib': new nodes.customNode('https://explorer.whalecoin.org/gwhale', '443')
     }
 };
 
