@@ -29,7 +29,7 @@
 
       <p><a data-target="#disclaimerModal" data-toggle="modal" target="_blank" rel="noopener" role="link" tabindex="0"  translate="FOOTER_4"> Disclaimer </a></p>
 
-      <p> &copy; 2017 MyEtherWallet, LLC </p>
+      <p> &nbsp </p>
 
     </section>
 
