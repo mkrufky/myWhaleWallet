@@ -3,7 +3,7 @@
 <head>
   <meta charset="utf-8">
   <title>MyWhaleWallet.com</title>
-  <link rel="canonical" href="https://www.mywhalewallet.com" />
+  <link rel="canonical" href="https://mywhalewallet.com" />
   <meta name="description" content="MyWhaleallet.com is a free, open-source, client-side interface for generating WhaleCoin wallets &amp; more. Interact with the WhaleCoin blockchain easily &amp; securely. Double-check the URL ( .com ) before unlocking your wallet.">
   <meta name="author" content="">
   <meta name="viewport" content="width=device-width, initial-scale=1">
@@ -32,6 +32,6 @@
 
 <header class="bg-gradient text-white">
 <section class="container text-center">
-  <a href="https://www.mywhalewallet.com/"><img src="images/logo-whale.png" height="50px" width="auto" alt="Ether Wallet" class="embedded-logo" /></a>
+  <a href="https://mywhalewallet.com/"><img src="images/logo-whale.png" height="50px" width="auto" alt="Ether Wallet" class="embedded-logo" /></a>
 </section>
 </header>

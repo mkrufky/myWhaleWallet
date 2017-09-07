@@ -5,52 +5,52 @@
       xsi:schemaLocation="http://www.sitemaps.org/schemas/sitemap/0.9
             http://www.sitemaps.org/schemas/sitemap/0.9/sitemap.xsd">
 <url>
-  <loc>https://www.mywhalewallet.com/</loc>
+  <loc>https://mywhalewallet.com/</loc>
   <lastmod>2017-07-02T14:16:52+00:00</lastmod>
   <priority>1.00</priority>
 </url>
 <url>
-  <loc>https://www.mywhalewallet.com/#send-transaction</loc>
+  <loc>https://mywhalewallet.com/#send-transaction</loc>
   <lastmod>2017-07-02T14:16:52+00:00</lastmod>
   <priority>0.9</priority>
 </url>
 <url>
-  <loc>https://www.mywhalewallet.com/#swap</loc>
+  <loc>https://mywhalewallet.com/#swap</loc>
   <lastmod>2017-07-02T14:16:52+00:00</lastmod>
   <priority>0.9</priority>
 </url>
 <url>
-  <loc>https://www.mywhalewallet.com/#offline-transaction</loc>
+  <loc>https://mywhalewallet.com/#offline-transaction</loc>
   <lastmod>2017-07-02T14:16:52+00:00</lastmod>
   <priority>0.9</priority>
 </url>
 <url>
-  <loc>https://www.mywhalewallet.com/#contracts</loc>
+  <loc>https://mywhalewallet.com/#contracts</loc>
   <lastmod>2017-07-02T14:16:52+00:00</lastmod>
   <priority>0.9</priority>
 </url>
 <url>
-  <loc>https://www.mywhalewallet.com/#ens</loc>
+  <loc>https://mywhalewallet.com/#ens</loc>
   <lastmod>2017-07-02T14:16:52+00:00</lastmod>
   <priority>0.9</priority>
 </url>
 <url>
-  <loc>https://www.mywhalewallet.com/#check-tx-status</loc>
+  <loc>https://mywhalewallet.com/#check-tx-status</loc>
   <lastmod>2017-07-02T14:16:52+00:00</lastmod>
   <priority>0.9</priority>
 </url>
 <url>
-  <loc>https://www.mywhalewallet.com/#view-wallet-info</loc>
+  <loc>https://mywhalewallet.com/#view-wallet-info</loc>
   <lastmod>2017-07-02T14:16:52+00:00</lastmod>
   <priority>0.9</priority>
 </url>
 <url>
-  <loc>https://www.mywhalewallet.com/signmsg.html</loc>
+  <loc>https://mywhalewallet.com/signmsg.html</loc>
   <lastmod>2017-07-02T14:16:52+00:00</lastmod>
   <priority>0.5</priority>
 </url>
 <url>
-  <loc>https://www.mywhalewallet.com/helpers.html</loc>
+  <loc>https://mywhalewallet.com/helpers.html</loc>
   <lastmod>2017-07-02T14:16:52+00:00</lastmod>
   <priority>0.5</priority>
 </url>
