@@ -20,7 +20,7 @@ x_TxHash                    : 'TX Hash',
 NAV_CheckTxStatus           : 'Vérifier statut TX',
 NAV_TxStatus                : 'Statut de la TX',
 tx_Details                  : 'Détails de transaction',
-tx_Summary                  : 'Pendant des périodes de volume important (comme pendant les ICOs) les transactions peuvent rester en attente des heures, voir des jours. Cet outil cherche à vous donner la possibilité de trouver et "annuler" / remplacer ces transactions. ** Ce n\'est pas quelque chose de possible normalement. Vous ne devriez pas vous y fier et cela ne marchera que lorsque les pools de transactions sont remplis. [Nous vous recommandons d\'en lire plus sur cet outil ici.](https://myetherwallet.groovehq.com/knowledge_base/topics/how-can-i-check-on-the-status-of-my-transaction-can-i-cancel-override-overwrite-replace-or-do-anything-once-a-transaction-has-been-sent)**',
+tx_Summary                  : 'Pendant des périodes de volume important (comme pendant les ICOs) les transactions peuvent rester en attente des heures, voir des jours. Cet outil cherche à vous donner la possibilité de trouver et "annuler" / remplacer ces transactions. ** Ce n\'est pas quelque chose de possible normalement. Vous ne devriez pas vous y fier et cela ne marchera que lorsque les pools de transactions sont remplis. [Nous vous recommandons d\'en lire plus sur cet outil ici.](https://mywhalewallet.groovehq.com/knowledge_base/topics/how-can-i-check-on-the-status-of-my-transaction-can-i-cancel-override-overwrite-replace-or-do-anything-once-a-transaction-has-been-sent)**',
 tx_notFound                 : 'Pas de transaction trouvée', //transaction not found
 tx_notFound_1               : 'Cette TX est introuvable dans le pool de TX du nœud auquel vous êtes connecté.',
 tx_notFound_2               : 'Si vous venez d\'envoyer la transaction, veuillez attendre 15 secondes et cliquez une nouvelle fois sur  le bouton "Vérifier statut TX". ',
@@ -33,7 +33,7 @@ tx_foundInPending_3         : 'Il existe une chance que vous puissiez "annuler" 
 tx_FoundOnChain             : 'Transaction trouvée',
 tx_FoundOnChain_1           : 'Votre transaction a été minée avec succès et se trouve sur la blockchain.',
 tx_FoundOnChain_2           : '**Si vous voyez un `( ! )` rouge, un message d\'erreur `BAD INSTRUCTION` ou `OUT OF GAS`**, cela signifie que votre transaction n\'a pas été *envoyée*. Vous ne pouvez pas annuler ou remplacer cette transaction. A la place, envoyez une nouvelle transaction. Si vous avez reçu une erreur de type "Out of Gas", vous devriez doubler la limite de gaz que vous aviez spécifiée.',
-tx_FoundOnChain_3           : '**Si vous ne voyez pas d\'erreur, votre transaction a été envoyée avec succès.** Vos ETH ou Tokens sont à l\'endroit où vous les avez envoyés. Si vous ne voyez pas ces ETH ou Tokens dans votre autre portefeuille ou compte de place d\'échange, et si cela fait plus de 24 heures, veuillez [contacter ce service](https://myetherwallet.groovehq.com/knowledge_base/topics/i-have-a-question-but-its-not-about-myetherwallet-dot-com-what-do-i-do). Envoyez-leur le *lien* vers votre transaction et demandez, poliment, d\'examiner votre situation.',
+tx_FoundOnChain_3           : '**Si vous ne voyez pas d\'erreur, votre transaction a été envoyée avec succès.** Vos ETH ou Tokens sont à l\'endroit où vous les avez envoyés. Si vous ne voyez pas ces ETH ou Tokens dans votre autre portefeuille ou compte de place d\'échange, et si cela fait plus de 24 heures, veuillez [contacter ce service](https://mywhalewallet.groovehq.com/knowledge_base/topics/i-have-a-question-but-its-not-about-myetherwallet-dot-com-what-do-i-do). Envoyez-leur le *lien* vers votre transaction et demandez, poliment, d\'examiner votre situation.',
 
 /* Gen Wallet Updates */
 GEN_Help_1                  : 'Utiliser votre',
@@ -47,7 +47,7 @@ GEN_Help_8                  : 'Pas de téléchargement? ',
 GEN_Help_9                  : 'Essayez Google Chrome ',
 GEN_Help_10                 : 'Clic droit & enregistrer sous. Nom de fichier: ',
 GEN_Help_11                 : 'N\'ouvrez pas ce fichier sur votre ordinateur ',
-GEN_Help_12                 : 'Utilisez-le pour déverouiller votre portefeuille avec MyEtherWallet (ou Mist, Geth, Parity et autres wallet clients.) ',
+GEN_Help_12                 : 'Utilisez-le pour déverouiller votre portefeuille avec MyWhaleWallet(ou Mist, Geth, Parity et autres wallet clients.) ',
 GEN_Help_13                 : 'Comment sauvegarder votre fichier Keystore ',
 GEN_Help_14                 : 'Quels sont ces différents formats? ',
 GEN_Help_15                 : 'Eviter la perte &amp; ou le vol de vos biens.',
@@ -62,7 +62,7 @@ GEN_Unlock                  : 'Déverouillez votre portefeuille pour voir votre 
 GAS_PRICE_Desc              : 'Le prix du gaz est le montant que vous payez par unité de gaz. `frais de TX  = prix du gaz * limite en gaz` & est payé aux mineurs pour inclure votre transaction à un bloc. Prix de gaz plus haut = transaction plus rapide, mais plus coûteuse. Le prix par défaut est de `21 GWEI`.',
 GAS_LIMIT_Desc              : 'La limite en gaz est le montant de gaz à envoyer avec votre transaction. `frais de TX  = prix du gaz * limite en gaz` et est payé aux mineurs pour inclure votre transaction à un bloc. Augmenter ce nombre n\'exécutera pas votre transaction plus rapidement. Envoyer ETH = `21000`. Envoyer des Tokens = ~`200000`.',
 NONCE_Desc                  : 'Le nonce est le nombre de transactions envoyées depuis une adresse. Il fait en sorte que les transactions sont envoyées en ordre et pas plus d\'une fois.',
-TXFEE_Desc                  : 'Les frais de transaction sont payés aux mineurs pour inclure votre transaction dans un bloc. Cela représente le `gas limit` * le `gas price`. [Vous pouvez convertir GWEI -> ETH ici](https://www.myetherwallet.com/helpers.html)',
+TXFEE_Desc                  : 'Les frais de transaction sont payés aux mineurs pour inclure votre transaction dans un bloc. Cela représente le `gas limit` * le `gas price`. [Vous pouvez convertir GWEI -> ETH ici](https://www.mywhalewallet.com/helpers.html)',
 
 	
   
@@ -156,8 +156,8 @@ ADD_Ledger_1                : 'Connect your Ledger Wallet ',
 ADD_Ledger_2                : 'Open the Ethereum application (or a contract application) ',
 ADD_Ledger_3                : 'Verify that Browser Support is enabled in Settings ',
 ADD_Ledger_4                : 'If no Browser Support is found in settings, verify that you have [Firmware >1.2](https://www.ledgerwallet.com/apps/manager) ',
-ADD_Ledger_0a               : 'You must access MyEtherWallet via a secure (SSL / HTTPS) connection to connect. ',
-ADD_Ledger_0b               : 'Re-open MyEtherWallet using [Chrome](https://www.google.com/chrome/browser/desktop/) or [Opera](https://www.opera.com/) ',
+ADD_Ledger_0a               : 'You must access MyWhaleWalletvia a secure (SSL / HTTPS) connection to connect. ',
+ADD_Ledger_0b               : 'Re-open MyWhaleWalletusing [Chrome](https://www.google.com/chrome/browser/desktop/) or [Opera](https://www.opera.com/) ',
 ADD_Ledger_scan             : 'Connect to Ledger Wallet ',
 
 ADD_MetaMask                : 'Connect to MetaMask ',
@@ -165,8 +165,8 @@ ADD_MetaMask                : 'Connect to MetaMask ',
 x_Trezor                    : 'TREZOR ',
 ADD_Trezor_scan             : 'Connect to TREZOR ',
 x_DigitalBitbox             : 'Digital Bitbox ',
-ADD_DigitalBitbox_0a        : 'Re-open MyEtherWallet on a secure (SSL) connection ',
-ADD_DigitalBitbox_0b        : 'Re-open MyEtherWallet using [Chrome](https://www.google.com/chrome/browser/desktop/) or [Opera](https://www.opera.com/) ',
+ADD_DigitalBitbox_0a        : 'Re-open MyWhaleWalleton a secure (SSL) connection ',
+ADD_DigitalBitbox_0b        : 'Re-open MyWhaleWalletusing [Chrome](https://www.google.com/chrome/browser/desktop/) or [Opera](https://www.opera.com/) ',
 ADD_DigitalBitbox_scan      : 'Connect your Digital Bitbox ',
 
 /* Add Wallet */					
@@ -209,7 +209,7 @@ MYWAL_Edit_2                : 'KORIJE BOUS LA ',
 MYWAL_Name                  : 'NON BOUS LA ',					
 MYWAL_Content_1             : 'ANTANSYON ! OU PRAL EFASE BOUS OU A ',				
 MYWAL_Content_2             : 'BYEN VEYE  KE W’ **KENBE KLE SEKRÈ W’ LA/PAJ JSON AK KÒD SEKRÈ A**KI ASOSYE AK BOUS LA ANVAN W’ EFASE L’ ',												
-MYWAL_Content_3             : 'SI W’ VLE SÈVI AK BOUS SA  AVÈK MyEtherWallet CX NAN LÒT JOU YO, OU DWE METE L’ ANKÒ  SÈVI AK KLE SEKRÈ A /PAJ JSON AK KÒD SEKRÈ A ',							
+MYWAL_Content_3             : 'SI W’ VLE SÈVI AK BOUS SA  AVÈK MyWhaleWalletCX NAN LÒT JOU YO, OU DWE METE L’ ANKÒ  SÈVI AK KLE SEKRÈ A /PAJ JSON AK KÒD SEKRÈ A ',							
  
 /* Generate Wallets */
 GEN_desc                    : 'SI W’ VLE KREYE PLIZYÈ LÒT BOUS, OU KAPAB FÈL LA ',
@@ -375,14 +375,14 @@ ERROR_24                    : 'TANPRI ANTRE YON PÒ KI VALAB ',
 ERROR_25                    : 'TANPRI ANTRE YON ID DE CHÈNN VALAB ',								
 ERROR_26                    : 'TANPRI ANTRE YON ABI KI VALAB ',																	
 ERROR_27                    : 'KANTITE PI PITI : 0.01. KANTITE PI GWO ',														
-ERROR_28                    : '**OU BEZWEN PAJ KEYSTORE W’ LA EPI KÒD SEKRÈ A ** ( OSWA KLE SEKRÈ W’ LA) POU KAPAB ANTRE NAN BOUS SA NAN LÒT JOU YO. TANPRI PRAN L’EPI  POU W’ SERE L’ YON KOTE DEYÒ ! PA GEN OKENN LÒT MWAYEN POU W’ JWENN ANKÒ YON BOUS SI W’ PA ANREJISTRE L’. TANPRI LI PAJ SA [PAJ POU EDE](https://www.myetherwallet.com/#help) POU DETAY YO ',																	
+ERROR_28                    : '**OU BEZWEN PAJ KEYSTORE W’ LA EPI KÒD SEKRÈ A ** ( OSWA KLE SEKRÈ W’ LA) POU KAPAB ANTRE NAN BOUS SA NAN LÒT JOU YO. TANPRI PRAN L’EPI  POU W’ SERE L’ YON KOTE DEYÒ ! PA GEN OKENN LÒT MWAYEN POU W’ JWENN ANKÒ YON BOUS SI W’ PA ANREJISTRE L’. TANPRI LI PAJ SA [PAJ POU EDE](https://www.mywhalewallet.com/#help) POU DETAY YO ',																	
 ERROR_29                    : 'TANPRI ANTRE YON BON NON AK  KÒD SEKRÈ L’ ',									
 ERROR_30                    : 'TANPRI ANTRE YON BON NON ENS ',													
 ERROR_31                    : 'FRAZ SEKRÈ A PA VALAB ',								
 ERROR_32                    : 'LI ENPOSIB POU W’ KONEKTE AK NE A. RAFRECHI PAJ LA, OSWA ESEYE YON LÒT NE (upper right corner), GADE NAN PARAMÈT FIREWALL OU YO. SI W’ AN MÒD NE, GADE NAN PARAMÈT YO // 32 ',																				
 ERROR_33                    : 'BOUS W’AP ESEYE OUVRI A LI PA GEN MENNM ADRÈS AK MET LI;33 ',																	
 ERROR_34                    : 'NON W’AP TANTE POU W’ KA WÈ A PA GEN MENM ADRÈS AK NON OU TE ANTRE A // 34 ',     
-ERROR_35                    : 'Input address is not checksummed. <a href="https://myetherwallet.groovehq.com/knowledge_base/topics/not-checksummed-shows-when-i-enter-an-address" target="_blank"  rel="noopener"> More info</a>', // 35
+ERROR_35                    : 'Input address is not checksummed. <a href="https://mywhalewallet.groovehq.com/knowledge_base/topics/not-checksummed-shows-when-i-enter-an-address" target="_blank"  rel="noopener"> More info</a>', // 35
 ERROR_36                    : 'Entrez une empreinte (_hash_) de TX valide', // 36
 ERROR_37                    : 'Entrez une chaîne hex valide (0-9, a-f)', // 37
 
@@ -419,7 +419,7 @@ PARITY_InvalidGasLimit      : "Supplied gas is beyond limit.",
 /* Tranlsation Info */			
 translate_version           : '0.5 ',								
 Translator_Desc             : ' YON MÈSI POU TRADIKTÈ N’YO ', 				
-TranslatorName_1            : '[Nogo10](https://www.myetherwallet.com/?gaslimit=21000&to= 0x152e77CC3Dd8d86471ebEa8e93B9924A41e7055a&value=1.0#VOYE-TRANSFÈ A) · ',											
+TranslatorName_1            : '[Nogo10](https://www.mywhalewallet.com/?gaslimit=21000&to= 0x152e77CC3Dd8d86471ebEa8e93B9924A41e7055a&value=1.0#VOYE-TRANSFÈ A) · ',											
 TranslatorAddr_1            : ' 0x152e77CC3Dd8d86471ebEa8e93B9924A41e7055a ',	
 /* Translator 1             : Insert Comments Here */
 TranslatorName_2            : 'NON TRADIKTÈ_2  JJCROISIERE · ',			
@@ -437,7 +437,7 @@ TranslatorAddr_5            : 'TRADIKTÈADDR_5 ',
 
 /* Help - Nothing after this point has to be translated. If you feel like being extra helpful, go for it. */
 HELP_Warning                : 'SI W’ TE KREYE YON BOUS- OSWA-  OU TE PRAN REPO A ANVAN ** 31 DESANM 2015**, TANPRI VERIFYE BOUS OU YO /  AL PRAN YON LÒT VÈSYON REPO A ANKÒ. PEZE LA POU W’ KA JWENN PLIS DETAY. ',
-HELP_Desc                   : 'MANKE YON BAGAY ? SI W’ GEN LÒT KESYON ? [PALE AK NOU]( mailto:support@myetherwallet.com), N’AP REPONN OU EPI N’AP TOU METE PAJ LA A JOU POU L’ KA ITIL PI PLIS AK TOUT LÒT MOUN YO NAN LÒT JOU YO ! ',
+HELP_Desc                   : 'MANKE YON BAGAY ? SI W’ GEN LÒT KESYON ? [PALE AK NOU]( mailto:support@mywhalewallet.com), N’AP REPONN OU EPI N’AP TOU METE PAJ LA A JOU POU L’ KA ITIL PI PLIS AK TOUT LÒT MOUN YO NAN LÒT JOU YO ! ',
 HELP_Remind_Title           : 'KÈK NAN SA POU SONJE YO: ',
 HELP_Remind_Desc_1          : 'ETHEREUM, MYETHERWALLET.COM & MYETHER WALLET CX, EPI KÈK NAN BIBLIYOTÈK YO  JAVASCRIPT KI ANBA KE NOU KONN SÈVI AK YO KÒMANSE AP DEVLOPE.** NOU PASE YO GWO TÈS EPI ANPIL DIZÈNN AK MILYE BOUS SA YO TE KREYE AVÈK ANPIL SIKSÈ TOUT KOTE NAN MOND LA. KA TOUJOU GEN YON TI KRAS POSIBLITE KE YON BAGAY KA PASE KI KA PÈMÈT OU PÈDI ETH OU YO. PA ENVESTI PLIS PLIS KE SA W ‘ KA PRÈ POU W’ PÈDI EPI PRIDANS. NAN KA AKSIDAN, N’AP DEZOLE MEN ** NOU P’AP RESPONSAB POU ETHER  SA W’ PÈDI A** ',
 HELP_Remind_Desc_2          : 'MYETHERWALLET.COM & MYETHERWALLET CX YO PA "BOUS WEB". OU PA KREYE YON KONT , OU PA BA NOU ETHER W’ YO TANKOU DEPO. OKENN DONE PA SÒTI NAN KOMPITÈ W’ OSWA NAVIGATÈ W’ LA. N’AP FASILITE W’ POU W KREYASYON AN. KIJAN POU KENBE  L’ EPI ANTRE NAN ENFÒMASYON W’ YO AK KONTAK OU MENM AK BLOCKCHAIN NAN. ',  
@@ -648,7 +648,7 @@ HELP_Sec_Title              : 'KLE ',
 HELP_Sec_Desc_1             : 'SI YOUN NAN PREMYE KESYON W’  OU POZE TÈT OU SE "POUKISA W’ DWE FÈ MOUN SA YO KONFYANS ? "  SE YON BON DEMACH. ESPERANS NOU SE SA KI AP VINI AN KI PRAL FÈ W PI BYEN KONPRANN. ',							
 HELP_Sec_Desc_2             : 'NOU TE KÒMANSE NAN MWA DAWOU 2015. SI W’ AL CHÈCHE ["myetherwallet" SOU reddit](https://www.reddit.com/search?q=myetherwallet), OU KAPAB WÈ YON PAKÈT BANN MOUN K’AP SÈVI AK NOU SAN OKENN PWOBLÈM. ',		
 HELP_Sec_Desc_3             : 'NOU PA PRAL PRAN KÒB OU OSWA VÒLÈ KLE SEKRÈ W’ YO. PA GEN KÒD MALVEYAN SOU SIT LA. EPI, PAJ "KREYASYON BOUS YO" YO  TOUT ANTYE SE POU KLIYAN AN. SA VLE DI KE TOUT KÒD YO FÈT SOU **KOMPITÈ W’ LA** YO PA JANM SOVE EPI/OSWA ALE OKENN LÒT KOTE.	 ',								
-HELP_Sec_Desc_4             : 'VERIFYE URL LA – SIT SA SÈVI AK GITHUB EPI OU KAPAB WÈ KÒD SOUS LA LA : : [https://github.com/kvhnuke/etherwallet/tree/gh-pages](https://github.com/kvhnuke/etherwallet/tree/gh-pages) NAN  [https://www.myetherwallet.com](https://www.myetherwallet.com). ',
+HELP_Sec_Desc_4             : 'VERIFYE URL LA – SIT SA SÈVI AK GITHUB EPI OU KAPAB WÈ KÒD SOUS LA LA : : [https://github.com/kvhnuke/etherwallet/tree/gh-pages](https://github.com/kvhnuke/etherwallet/tree/gh-pages) NAN  [https://www.mywhalewallet.com](https://www.mywhalewallet.com). ',
 HELP_Sec_Desc_5             : 'POU W’ KREYE BOUS YO, OU KAPAB PRAN [KÒD SOUS LA] (https://github.com/kvhnuke/etherwallet/releases/latest). GADE #5 KI ANLÈ A.  ',
 HELP_Sec_Desc_6             : 'KÒMANSE YON TÈS EPI VERIFYE JAN REZO AP FONKSYONE. FASON KI PI SENP LA SE YON KLIK DWAT SOU PAJ LA APRÈ "ENSPEKSYON".AL NAN KAZYE  "NETWORK" KREYE YON BOUS POU TÈS. OU PRAL WÈ REZO A P’AP FONKSYONE. OU KAPAB PRAL WÈ YON KÈK BAGAY AP FÈT KI SANBLE AK DATA :IMAGE/GIF EPI DATA :IMAGE/PNG SA YO SE QR KÒD YO KI KÒMANSE AP KREYE… SOU KOMPITÈ W’ LA. PA GEN OKENN TRANSFÈ OCTET KI TE FÈT. ',
 HELP_Sec_Desc_8             : 'SI ZOUTI SA PA FÈ W ‘ PLEZI, EBYEN PA SÈVI AK LI. NOU TE KREYE L’ POU L’ KA EDE TOUT MOUN  KREYE BOUS YO AK FÈ TRANSFÈ YO SAN YO PA BEZWEN AL PRAN LIY POU FÈ SA YO NI FÈ VIRE TOUNEN NAN YON NE ANTYE. YON LÒT FWA, PA EZITE FÈ N’ KONNEN SI W’ GEN DOUT EPI N’AP REPONN OU PI VIT KE POSIB. MÈSI ! ',

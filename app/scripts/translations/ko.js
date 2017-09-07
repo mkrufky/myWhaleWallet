@@ -18,7 +18,7 @@ x_TxHash                    : 'TX Hash',
 NAV_CheckTxStatus           : 'Check TX Status',
 NAV_TxStatus                : 'TX Status',
 tx_Details                  : 'Transaction Details',
-tx_Summary                  : 'During times of high volume (like during ICOs) transactions can be pending for hours, if not days. This tool aims to give you the ability to find and "cancel" / replace these TXs. ** This is not typically something you can do. It should not be relied upon & will only work when the TX Pools are full. [Please, read about this tool here.](https://myetherwallet.groovehq.com/knowledge_base/topics/how-can-i-check-on-the-status-of-my-transaction-can-i-cancel-override-overwrite-replace-or-do-anything-once-a-transaction-has-been-sent)**',
+tx_Summary                  : 'During times of high volume (like during ICOs) transactions can be pending for hours, if not days. This tool aims to give you the ability to find and "cancel" / replace these TXs. ** This is not typically something you can do. It should not be relied upon & will only work when the TX Pools are full. [Please, read about this tool here.](https://mywhalewallet.groovehq.com/knowledge_base/topics/how-can-i-check-on-the-status-of-my-transaction-can-i-cancel-override-overwrite-replace-or-do-anything-once-a-transaction-has-been-sent)**',
 tx_notFound                 : 'Transaction Not Found',
 tx_notFound_1               : 'This TX cannot be found in the TX Pool of the node you are connected to.',
 tx_notFound_2               : 'If you just sent the transaction, please wait 15 seconds and press the "Check TX Status" button again. ',
@@ -31,7 +31,7 @@ tx_foundInPending_3         : 'There is a chance you can "cancel" or replace thi
 tx_FoundOnChain             : 'Transaction Found',
 tx_FoundOnChain_1           : 'Your transaction was successfully mined and is on the blockchain.',
 tx_FoundOnChain_2           : '**If you see a red `( ! )`, a `BAD INSTRUCTION` or `OUT OF GAS` error message**, it means that the transaction was not successfully *sent*. You cannot cancel or replace this transaction. Instead, send a new transaction. If you received an "Out of Gas" error, you should double the gas limit you specified originally.',
-tx_FoundOnChain_3           : '**If you do not see any errors, your transaction was successfully sent.** Your ETH or Tokens are where you sent them. If you cannot see this ETH or Tokens credited in your other wallet / exchange account, and it has been 24+ hours since you sent, please [contact that service](https://myetherwallet.groovehq.com/knowledge_base/topics/i-have-a-question-but-its-not-about-myetherwallet-dot-com-what-do-i-do). Send them the *link* to your transaction and ask them, nicely, to look into your situation.',
+tx_FoundOnChain_3           : '**If you do not see any errors, your transaction was successfully sent.** Your ETH or Tokens are where you sent them. If you cannot see this ETH or Tokens credited in your other wallet / exchange account, and it has been 24+ hours since you sent, please [contact that service](https://mywhalewallet.groovehq.com/knowledge_base/topics/i-have-a-question-but-its-not-about-myetherwallet-dot-com-what-do-i-do). Send them the *link* to your transaction and ask them, nicely, to look into your situation.',
 
 /* Gen Wallet Updates */
 GEN_Help_1                  : 'Use your',
@@ -45,7 +45,7 @@ GEN_Help_8                  : 'Not Downloading a File? ',
 GEN_Help_9                  : 'Try using Google Chrome ',
 GEN_Help_10                 : 'Right click & save file as. Filename: ',
 GEN_Help_11                 : 'Don\'t open this file on your computer ',
-GEN_Help_12                 : 'Use it to unlock your wallet via MyEtherWallet (or Mist, Geth, Parity and other wallet clients.) ',
+GEN_Help_12                 : 'Use it to unlock your wallet via MyWhaleWallet(or Mist, Geth, Parity and other wallet clients.) ',
 GEN_Help_13                 : 'How to Back Up Your Keystore File ',
 GEN_Help_14                 : 'What are these Different Formats? ',
 GEN_Help_15                 : 'Preventing loss &amp; theft of your funds.',
@@ -60,7 +60,7 @@ GEN_Unlock                  : 'Unlock your wallet to see your address',
 GAS_PRICE_Desc              : 'Gas Price is the amount you pay per unit of gas. `TX fee = gas price * gas limit` & is paid to miners for including your TX in a block. Higher the gas price = faster transaction, but more expensive. Default is `21 GWEI`.',
 GAS_LIMIT_Desc              : 'Gas limit is the amount of gas to send with your TX. `TX fee` = gas price * gas limit & is paid to miners for including your TX in a block. Increasing this number will not get your TX mined faster. Sending ETH = `21000`. Sending Tokens = ~`200000`.',
 NONCE_Desc                  : 'The nonce is the number of transactions sent from a given address. It ensures transactions are sent in order & not more than once.',
-TXFEE_Desc                  : 'The TX Fee is paid to miners for including your TX in a block. Is is the `gas limit` * `gas price`. [You can convert GWEI -> ETH here](https://www.myetherwallet.com/helpers.html)',
+TXFEE_Desc                  : 'The TX Fee is paid to miners for including your TX in a block. Is is the `gas limit` * `gas price`. [You can convert GWEI -> ETH here](https://www.mywhalewallet.com/helpers.html)',
 
 
 
@@ -207,7 +207,7 @@ MYWAL_Edit_2                : '지갑 수정 ',
 MYWAL_Name                  : '지갑 이름 ',
 MYWAL_Content_1             : '경고! 지갑을 제거하려고 합니다. ',
 MYWAL_Content_2             : '제거하기 전 ** 개인 키 및 Keystore 파일, 비밀번호 **가 저장되어 있는지 확인해주세요. ',
-MYWAL_Content_3             : '나중에 이 지갑을 MyEtherWallet CX와 같이 사용하려면, 개인 키/JSON과 비밀번호를 이용하여 수동으로 다시 추가해야 합니다. ',
+MYWAL_Content_3             : '나중에 이 지갑을 MyWhaleWalletCX와 같이 사용하려면, 개인 키/JSON과 비밀번호를 이용하여 수동으로 다시 추가해야 합니다. ',
 
 /* Generate Wallets */
 GEN_desc                    : '만약 여러 개의 지갑을 생성하고 싶다면, 여기서 처리할 수 있습니다. ',
@@ -373,14 +373,14 @@ ERROR_24                    : '올바른 포트를 입력해주세요. ',
 ERROR_25                    : '올바른 체인 ID를 입력해주세요 ',
 ERROR_26                    : '올바른 ABI를 입력해주세요 ',
 ERROR_27                    : '최소량: 0.01. 최대량: ',
-ERROR_28                    : '지갑에 액세스하기 위해서는 **Keystore 파일과 비밀번호** (또는 개인키)가 필요합니다. 별도로 저장하여 백업해주세요. 만약 그것을 저장하지 않으면 지갑을 복원할 방법이 없습니다. 자세한 내용은 [도움말 페이지](https://www.myetherwallet.com/#help)를 참고해주세요. ',
+ERROR_28                    : '지갑에 액세스하기 위해서는 **Keystore 파일과 비밀번호** (또는 개인키)가 필요합니다. 별도로 저장하여 백업해주세요. 만약 그것을 저장하지 않으면 지갑을 복원할 방법이 없습니다. 자세한 내용은 [도움말 페이지](https://www.mywhalewallet.com/#help)를 참고해주세요. ',
 ERROR_29                    : '올바른 사용자와 패스워드를 입력해주세요 ',
 ERROR_30                    : '올바른 ENS 이름을 입력해주세요 ',
 ERROR_31                    : '잘못된 비밀 문구입니다. ',
 ERROR_32                    : '노드에 연결할 수 없습니다. 새로고침 하거나 도움말을 확인해주세요. ',
 ERROR_33                    : '입찰자의 주소와 잠금 해제된 지갑이 일치하지 않습니다. ',
 ERROR_34                    : '해당 이름이 문자열의 이름과 일치하지 않습니다. ',
-ERROR_35                    : 'Input address is not checksummed. <a href="https://myetherwallet.groovehq.com/knowledge_base/topics/not-checksummed-shows-when-i-enter-an-address" target="_blank" rel="noopener"> More info</a>', // 35
+ERROR_35                    : 'Input address is not checksummed. <a href="https://mywhalewallet.groovehq.com/knowledge_base/topics/not-checksummed-shows-when-i-enter-an-address" target="_blank" rel="noopener"> More info</a>', // 35
 ERROR_36                    : 'Enter valid TX hash', // 36
 ERROR_37                    : 'Enter valid hex string (0-9, a-f)', // 37
 
@@ -417,28 +417,28 @@ PARITY_InvalidGasLimit      : "공급 된 가스가 한도를 초과했습니다
 /* Tranlsation Info */
 translate_version           : '0.5 ',
 Translator_Desc             : '번역에 기여해주신 분들 ',
-TranslatorName_1            : '[CoinKorea](https://www.myetherwallet.com/?gaslimit=21000&to=0x0080782b9A9A14f7871Bb765eF7041e784D03F00&value=1.0#send-transaction) · [kanghamin](https://www.myetherwallet.com/?gaslimit=21000&to=0x7B12655A5aada0b3c053C7ff5aa444Bd666A0163&value=1.0#send-transaction) · [maa](https://www.myetherwallet.com/?gaslimit=21000&to=0x14036e41ddb2bd408eaf91597e6dc5220f776ae0&value=1.0#send-transaction) ',
+TranslatorName_1            : '[CoinKorea](https://www.mywhalewallet.com/?gaslimit=21000&to=0x0080782b9A9A14f7871Bb765eF7041e784D03F00&value=1.0#send-transaction) · [kanghamin](https://www.mywhalewallet.com/?gaslimit=21000&to=0x7B12655A5aada0b3c053C7ff5aa444Bd666A0163&value=1.0#send-transaction) · [maa](https://www.mywhalewallet.com/?gaslimit=21000&to=0x14036e41ddb2bd408eaf91597e6dc5220f776ae0&value=1.0#send-transaction) ',
 TranslatorAddr_1            : '0x0080782b9A9A14f7871Bb765eF7041e784D03F00 ',
 /* Translator 1             : Insert Comments Here */
-TranslatorName_2            : '· [Issac](https://www.myetherwallet.com/?gaslimit=21000&to=0x594a7773f4e062ccf644e8f122d5612b5f0db3b2&value=1.0#send-transaction) ',
+TranslatorName_2            : '· [Issac](https://www.mywhalewallet.com/?gaslimit=21000&to=0x594a7773f4e062ccf644e8f122d5612b5f0db3b2&value=1.0#send-transaction) ',
 TranslatorAddr_2            : '0x594a7773f4e062ccf644e8f122d5612b5f0db3b2 ',
 /* Translator 2             : Insert Comments Here */
-TranslatorName_3            : '· [coinmaker](https://www.myetherwallet.com/?gaslimit=21000&to=0x80B65285607BAbC4b60a7179A0fa8EB42232b9ad&value=1.0#send-transaction) ',
+TranslatorName_3            : '· [coinmaker](https://www.mywhalewallet.com/?gaslimit=21000&to=0x80B65285607BAbC4b60a7179A0fa8EB42232b9ad&value=1.0#send-transaction) ',
 TranslatorAddr_3            : '0x80B65285607BAbC4b60a7179A0fa8EB42232b9ad ',
 /* Translator 3             : Insert Comments Here */
-TranslatorName_4            : '· [csjune](https://www.myetherwallet.com/?gaslimit=21000&to=0xfc465E0545c1024d04ceA2d6D154F20E7C67C66f&value=1.0#send-transaction) ',
+TranslatorName_4            : '· [csjune](https://www.mywhalewallet.com/?gaslimit=21000&to=0xfc465E0545c1024d04ceA2d6D154F20E7C67C66f&value=1.0#send-transaction) ',
 TranslatorAddr_4            : '0xfc465E0545c1024d04ceA2d6D154F20E7C67C66f ',
 /* Translator 4             : Insert Comments Here */
-TranslatorName_5            : '· [sadfrog](https://www.myetherwallet.com/?gaslimit=21000&to=0x608c96865c3d1364ffc5137e5ac78b57e58714d4&value=1.0#send-transaction) ',
+TranslatorName_5            : '· [sadfrog](https://www.mywhalewallet.com/?gaslimit=21000&to=0x608c96865c3d1364ffc5137e5ac78b57e58714d4&value=1.0#send-transaction) ',
 TranslatorAddr_5            : '0x608c96865c3d1364ffc5137e5ac78b57e58714d4 ',
 /* Translator 5             : Insert Comments Here */
 
 /* Help - Nothing after this point has to be translated. If you feel like being extra helpful, go for it. */
 HELP_Warning                : '**2015년 3월** 이전에 지갑을 만들었거나 저장소를 다운로드했다면, 지갑 &amp; 저장소의 새 버전을 확인하고 다운로드해주세요. 자세한 내용을 보려면 클릭해주세요. ',
-HELP_Desc                   : '잘못된 부분이나 다른 질문이 있으신가요? [우리에게 연락해주세요] (mailto : support@myetherwallet.com), 당신의 질문에 답변하는 것 뿐만 아니라, 향후 사용자들에게 더 유용할 수 있도록 페이지를 업데이트할 것입니다. ',
+HELP_Desc                   : '잘못된 부분이나 다른 질문이 있으신가요? [우리에게 연락해주세요] (mailto : support@mywhalewallet.com), 당신의 질문에 답변하는 것 뿐만 아니라, 향후 사용자들에게 더 유용할 수 있도록 페이지를 업데이트할 것입니다. ',
 HELP_Remind_Title           :  '몇 가지 알림 ',
-HELP_Remind_Desc_1          : '**이더리움, MyEtherWallet.com & MyEtherWallet CX, 그리고 우리가 사용하는 JavaScript 라이브러리는 활발하게 개발되고 있습니다. ** 우리가 철저하게 테스트를 진행하여 수만 개의 지갑이 전 세계 사람들에 의해 성공적으로 만들어졌지만 예상치 못한 일이 발생하여 ETH를 잃을 가능성이 항상 존재합니다. 항상 조심해주세요. 만약 무슨 일이 발생한다면, 유감스럽지만 **우리는 잃어버린 이더리움에 대한 책임을 지지 않습니다.** ',
-HELP_Remind_Desc_2          : 'MyEtherWallet.com 과 MyEtherWallet CX는 웹 지갑이 아닙니다. 계정을 만들거나 우리에게 당신이 가진 이더리움을 주면 안 됩니다. 모든 데이터는 당신의 컴퓨터와 브라우저에 남아 있을 것입니다. 우리는 당신이 쉽게 당신의 정보를 만들고, 저장하고, 접근하고 블록체인과 상호 작용할 수 있도록 도울 것입니다. ',
+HELP_Remind_Desc_1          : '**이더리움, MyEtherWallet.com & MyWhaleWalletCX, 그리고 우리가 사용하는 JavaScript 라이브러리는 활발하게 개발되고 있습니다. ** 우리가 철저하게 테스트를 진행하여 수만 개의 지갑이 전 세계 사람들에 의해 성공적으로 만들어졌지만 예상치 못한 일이 발생하여 ETH를 잃을 가능성이 항상 존재합니다. 항상 조심해주세요. 만약 무슨 일이 발생한다면, 유감스럽지만 **우리는 잃어버린 이더리움에 대한 책임을 지지 않습니다.** ',
+HELP_Remind_Desc_2          : 'MyEtherWallet.com 과 MyWhaleWalletCX는 웹 지갑이 아닙니다. 계정을 만들거나 우리에게 당신이 가진 이더리움을 주면 안 됩니다. 모든 데이터는 당신의 컴퓨터와 브라우저에 남아 있을 것입니다. 우리는 당신이 쉽게 당신의 정보를 만들고, 저장하고, 접근하고 블록체인과 상호 작용할 수 있도록 도울 것입니다. ',
 HELP_Remind_Desc_3          : '당신의 개인 키와 암호를 저장하지 않으면, 지갑에 액세스할 수 없게 될 뿐만 아니라, 지갑에 있는 자금에도 접근할 수 없게 됩니다. 개인 키와 암호를 컴퓨터뿐만 아니라 &ndash; 다양한 실제 위치(ex :인쇄, 메모 등...)에도 백업해야 합니다! ',
 
 HELP_0_Title                : '0) 처음 사용합니다. 뭘 해야 하나요? ',
@@ -481,7 +481,7 @@ HELP_3_Desc_4               : '지갑 파일 선택 또는 개인 키를 사용�
 HELP_3_Desc_5               : '지갑이 암호화되어 있다면, 팝업 창이 열립니다. 비밀번호를 입력합니다. ',
 HELP_3_Desc_6               : '"지갑 잠금 해제" 버튼을 클릭합니다. ',
 HELP_3_Desc_7               : '지갑 정보가 표시됩니다. 색색의 동그란 아이콘 옆에 있는 지갑 주소를 찾습니다. 아이콘은 지갑 주소를 시각적으로 나타냅니다. 지갑 주소가 지갑을 생성할 때 메모해두었던 주소와 일치하는지 확인해야 합니다. ',
-HELP_3_Desc_8               : '많은 양의 이더리움을 MyEtherWallet 으로 전송하기 전에, 소량의 이더리움을 전송해 보는 것을 권장합니다. 0.001 이더리움을 지갑으로 전송하고, 지갑을 열어 받은 이더리움을 확인하고, 다시 0.001 이더리움을 다른 주소로 전송하여 모든 과정이 잘 작동하는지 확인해주세요. ',
+HELP_3_Desc_8               : '많은 양의 이더리움을 MyWhaleWallet으로 전송하기 전에, 소량의 이더리움을 전송해 보는 것을 권장합니다. 0.001 이더리움을 지갑으로 전송하고, 지갑을 열어 받은 이더리움을 확인하고, 다시 0.001 이더리움을 다른 주소로 전송하여 모든 과정이 잘 작동하는지 확인해주세요. ',
 
 HELP_4_Title                : '4) 한 지갑에서 다른 지갑으로 이더리움을 어떻게 전송하나요? ',
 HELP_4_Desc_1               : '많은 양의 이더리움을 다른 지갑으로 전송하기 전에 소량의 이더리움을 전송하여 전송이 잘 되는지 확인해주세요. ',
@@ -497,7 +497,7 @@ HELP_4_Desc_11              : '바로 아래에 있는 "트랜잭션 전송하�
 HELP_4_Desc_12              : '팝업창 열리면, 전송하고자 하는 수량이 정확한지 확인해주세요. 그 후, "네, 맞습니다! 전송합니다." 버튼을 누릅니다. ',
 HELP_4_Desc_13              : '트랜잭션이 제출되고, TXID가 표시 됩니다. TXID를 클릭하여 블록체인에 등록되었는지 확인할 수 있습니다. ',
 
-HELP_4CX_Title              : '4) 이더리움을 MyEtherWallet CX를 사용하여 전송하는 방법이 궁급합니다. ',
+HELP_4CX_Title              : '4) 이더리움을 MyWhaleWalletCX를 사용하여 전송하는 방법이 궁급합니다. ',
 HELP_4CX_Desc_1             : '우선 지갑을 추가해야 합니다. 그 후에, 2가지 방법이 있습니다. "빠른 전송" 또는 "이더리움 & 토큰 전송" 페이지입니다. ',
 HELP_4CX_Desc_2             : '빠른 전송 ',
 HELP_4CX_Desc_3             : 'Chrome 확장 프로그램 아이콘을 클릭합니다. ',
@@ -542,16 +542,16 @@ HELP_7_Desc_12              : '2가지 이상의 영역이 나타날 것입니�
 HELP_7_Desc_13              : '그 아래에 있는 파란색 ‘트랜잭션 전송하기’ 버튼을 클릭합니다. ',
 HELP_7_Desc_14              : '팝업창이 열리면 보내는 양과 주소가 맞는지 확인해주세요. 그리고 "네 맞습니다! 전송합니다." 버튼을 클릭합니다. ',
 HELP_7_Desc_15              : '트랜잭션이 전송되면 TXID가 나타날 것입니다. 해당 TXID를 클릭하여 블록체인에서 볼 수 있습니다. ',
-HELP_8_Title                : '8) MyEtherWallet 서버가 다운되면 어떻게 되나요? ',
+HELP_8_Title                : '8) MyWhaleWallet서버가 다운되면 어떻게 되나요? ',
 HELP_8_Desc_1               : 'MyEtherWallet은 웹 지갑이 아닙니다. 서버에는 로그인은 물론 어떠한 것도 저장되지 않습니다. MyEtherWallet은 단지 블록체인에 접근 하게 해주는 도구입니다. ',
-HELP_8_Desc_2               : '만약 MyEtherWallet.com 이 다운된다면, 다른 대안 도구 (geth 또는 Ethereum Wallet / Mist 등)을 사용해야 합니다. MyEtherWallet 에서 이더리움을 꺼내야 할 필요는 없습니다. 이더리움들은 MyEtherWallet.com 을 통해서 생성된 지갑 내에 존재합니다. ',
+HELP_8_Desc_2               : '만약 MyEtherWallet.com 이 다운된다면, 다른 대안 도구 (geth 또는 Ethereum Wallet / Mist 등)을 사용해야 합니다. MyWhaleWallet에서 이더리움을 꺼내야 할 필요는 없습니다. 이더리움들은 MyEtherWallet.com 을 통해서 생성된 지갑 내에 존재합니다. ',
 HELP_8_Desc_3               : '암호화되지 않은 개인 키와 암호화된 Geth/Mist 형식의 파일은 쉽게 geth / 이더리움 지갑 / Mist에서 불러올 수 있습니다. 아래의 질문 #12를 확인해주세요. ',
-HELP_8_Desc_4               : '또한, MyEtherWallet 이 다운 될 가능성은 희박합니다. 우리는 어떠한 정보도 저장하지 않기 때문에 비용이 들지 않습니다. 도메인이 다운되더라도, 항상 공개적으로  [https://github.com/kvhnuke/etherwallet](https://github.com/kvhnuke/etherwallet/tree/gh-pages)을 통해 로컬 지갑을 시작할 수 있습니다. ZIP 파일을 다운 받아주세요. ',
+HELP_8_Desc_4               : '또한, MyWhaleWallet이 다운 될 가능성은 희박합니다. 우리는 어떠한 정보도 저장하지 않기 때문에 비용이 들지 않습니다. 도메인이 다운되더라도, 항상 공개적으로  [https://github.com/kvhnuke/etherwallet](https://github.com/kvhnuke/etherwallet/tree/gh-pages)을 통해 로컬 지갑을 시작할 수 있습니다. ZIP 파일을 다운 받아주세요. ',
 
-HELP_8CX_Title             : '8) MyEtherWallet CX가 사라지면 어떻게 되나요? ',
-HELP_8CX_Desc_1             : '우선, 모든 정보는 MyEtherWallet 서버가 아닌 사용자의 컴퓨터에 저장됩니다. 오해할 수도 있지만, Chrome 확장 프로그램 화면은 우리의 서버에서 불러온 것이 아닙니다. 전부 사용자의 컴퓨터에 저장 되어있습니다. ',
-HELP_8CX_Desc_2             : '즉, **매우 중요** MyEtherWallet CX 로 새로 만든 지갑 정보는 모두 백업해 두어야 합니다. 만약 컴퓨터에 문제가 생기거나 Chrome 확장 프로그램에 문제가 생겨도 백업해둔 파일로 지갑에 접근할 수 있습니다. #2a에서 지갑을 어떻게 백업 하는 지 확인할 수 있습니다. ',
-HELP_8CX_Desc_3             : '어떤 이유로 MyEtherWallet CX 가 Chrome 스토어에서 사라져도, Github 에서 소스를 다운 받아 수동으로 사용할 수 있습니다. 위의 #5를 확인해주세요. ',
+HELP_8CX_Title             : '8) MyWhaleWalletCX가 사라지면 어떻게 되나요? ',
+HELP_8CX_Desc_1             : '우선, 모든 정보는 MyWhaleWallet서버가 아닌 사용자의 컴퓨터에 저장됩니다. 오해할 수도 있지만, Chrome 확장 프로그램 화면은 우리의 서버에서 불러온 것이 아닙니다. 전부 사용자의 컴퓨터에 저장 되어있습니다. ',
+HELP_8CX_Desc_2             : '즉, **매우 중요** MyWhaleWalletCX 로 새로 만든 지갑 정보는 모두 백업해 두어야 합니다. 만약 컴퓨터에 문제가 생기거나 Chrome 확장 프로그램에 문제가 생겨도 백업해둔 파일로 지갑에 접근할 수 있습니다. #2a에서 지갑을 어떻게 백업 하는 지 확인할 수 있습니다. ',
+HELP_8CX_Desc_3             : '어떤 이유로 MyWhaleWalletCX 가 Chrome 스토어에서 사라져도, Github 에서 소스를 다운 받아 수동으로 사용할 수 있습니다. 위의 #5를 확인해주세요. ',
 
 HELP_9_Title                : '9) "이더리움 & 토큰 전송하기" 페이지는 오프라인인가요? ',
 HELP_9_Desc_1               :  '아닙니다. 현재 가스 가격, 본인의 계정 정보, 그리고 트랜잭션 ("전송하기")를 나타내기 위해서는 인터넷이 필요합니다. 그러나 이것은 서명된 트랜잭션만 보냅니다. 개인 키는 안전하게 귀하와 함께 있습니다. 또한, 오프라인 트랜잭션 페이지를 제공하여 개인 키가 항상 오프라인 / 인터넷이 연결되지 않은 컴퓨터에 있는지 확인할 수 있습니다. ',
@@ -570,7 +570,7 @@ HELP_10_Desc_10             : '이 버튼 아래의 데이터 영역은 서명�
 HELP_10_Desc_11             : '온라인 컴퓨터에서 3단계의 텍스트 필드에 서명된 트랜잭션을 붙여넣고 전송하기를 클릭해주세요. 그 후에 트랜잭션이 공개됩니다. ',
 
 HELP_12_Title               : '12) MyEtherWallet으로 만든 지갑을 geth / 이더리움 지갑 / Mist로 가져오려면 어떻게 해야 하나요? ',
-HELP_12_Desc_1              : 'MyEtherWallet v2 +의 Geth / Mist JSON 파일 사용하기… ',
+HELP_12_Desc_1              : 'MyWhaleWallet v2 +의 Geth / Mist JSON 파일 사용하기… ',
 HELP_12_Desc_2              : '"지갑 정보 보기" 페이지로 이동합니다. ',
 HELP_12_Desc_3              : '**암호화된** 개인 키 또는 JSON 파일을 사용하여 지갑을 잠금 해제합니다. ',
 HELP_12_Desc_4              : '"내 지갑"페이지로 이동합니다. ',
@@ -633,7 +633,7 @@ HELP_21_Desc_6              : '당신이 비트코인에 대해 이해하고 있
 HELP_21_Desc_7              : '[좀 더 기술적인 것을 원한다면:] (http://security.stackexchange.com/questions/25375/why-not-use-larger-cipher-keys/25392#25392) *이 숫자는 장치 기술과 아무런 관련이 없습니다. 그것들은 열역학이 허용하는 최대치입니다. 그리고 그것들은 256bit 키에 대한 무차별 대입 공격이 해당 컴퓨터가 다른 물질로 변할 때까지 엄청난 시간이 흘러도 불가능하다는 것을 강하게 암시합니다. ',
 HELP_21_Desc_8              : '물론, 이 모든 개인 키가 정말로 무작위 방식으로 충분한 엔트로피를 갖고 생성된다고 가정합시다. 이곳에서 생성된 키는 Jaxx 와 Mist/geth와 마찬가지로 해당 기준을 충족시킵니다. 이더리움 지갑들은 모두 좋은 지갑들입니다. 사람의 뇌가 정말로 무작위적인 시드를 만들어내지 못하기 때문에 사람에 의해 만들어진 지갑으로 만들어진 키는 썩 좋지 않습니다. 비트코인 세계에서는 정말로 무작위 방식으로 생성되고 있지 않은 엔트로피나 시드가 부족한 것에 관해 수많은 문제가 있었습니다. 하지만 그것은 언젠가 해결이 될 날을 기다릴 수 있는 것은 별개의 문제입니다. ',
 
-HELP_SecCX_Title            : '보안 - MyEtherWallet CX ',
+HELP_SecCX_Title            : '보안 - MyWhaleWalletCX ',
 HELP_SecCX_Desc_1           : '이 확장 프로그램이 내 정보를 어디에 저장하나요? ',
 HELP_SecCX_Desc_2           : '당신이 Chrome 확장 프로그램에 저장한 정보는 [Chrome.storage](http://chrome.storage/)를 통해 저장됩니다. - 이것은 당신이 Chrome에 비밀번호를 저장한 위치와 같은 위치에 저장됩니다. ',
 HELP_SecCX_Desc_3           : '어떤 정보가 저장되나요? ',
@@ -645,7 +645,7 @@ HELP_Sec_Title              : '보안 ',
 HELP_Sec_Desc_1             : '당신의 첫 번째 질문이 "이 사람들을 신뢰할 수 있나요?"라는 질문이라면 매우 타당한 질문입니다. 다음 내용이 당신의 질문에 대한 답변이 되기를 바랍니다. ',
 HELP_Sec_Desc_2             : '우리는 2015년 8월부터 운영되어 왔습니다. [www.reddit.com 에서 myetherwallet](https://www.reddit.com/search?q=myetherwalle)을 검색하면 많은 사용자들을 볼 수 있습니다. ',
 HELP_Sec_Desc_3             : '우리는 절대 돈을 빼가거나 개인 키를 훔치지 않습니다. 이 사이트에 악의적인 코드는 없습니다. 실제로 지갑 생성 페이지는 완전하게 클라이언트 측에서 작동합니다. 즉, 모든 코드가 **사용자 컴퓨터**에서 실행되며 절대 다른 곳에 정보가 저장되거나 전송되지 않습니다. ',
-HELP_Sec_Desc_4             : '이 URL을 확인해보세요. -- 이 사이트는 GitHub를 통해 소스가 공개되어 있으며 다음 링크에서 확인하실 수 있습니다. : [https://github.com/kvhnuke/etherwallet/tree/gh-pages](https://github.com/kvhnuke/etherwallet/tree/gh-pages) to [https://www.myetherwallet.com](https://www.myetherwallet.com). ',
+HELP_Sec_Desc_4             : '이 URL을 확인해보세요. -- 이 사이트는 GitHub를 통해 소스가 공개되어 있으며 다음 링크에서 확인하실 수 있습니다. : [https://github.com/kvhnuke/etherwallet/tree/gh-pages](https://github.com/kvhnuke/etherwallet/tree/gh-pages) to [https://www.mywhalewallet.com](https://www.mywhalewallet.com). ',
 HELP_Sec_Desc_5             : '지갑을 생성하려면, [소스 코드를 다운로드하여 로컬에서 실행하십시오](https://github.com/kvhnuke/etherwallet/releases/latest). 위의 #5를 참조해주세요 ',
 HELP_Sec_Desc_6             : '테스트 지갑을 생성하고 어떤 네트워크 활동이 진행되는지 확인할 수 있습니다. 가장 쉬운 방법은 페이지를 마우스 오른쪽 버튼을 클릭하여 "요소 검사"를 클릭합니다. "네트워크" 탭으로 이동합니다. 테스트 지갑을 생성하면 네트워크 탭에서 네트워크 활동이 없음을 확인할 수 있습니다. data:image/gif, data:image/png 생성도 역시 네트워크를 사용하지 않는 것을 확인하실 수 있습니다. QR 코드는 컴퓨터에서 생성됩니다. 당신의 컴퓨터에서 아무것도 전송되지 않는 것을 확인하실 수 있습니다. ',
 HELP_Sec_Desc_8             : '이 도구를 사용하는 것이 내키지 않는다면 사용하지 않아도 됩니다. 우리는 사람들이 커맨드 명령을 입력이나 풀 노드를 실행할 필요 없이 지갑을 생성하고 트랜잭션을 생성하는 데 도움이 되었으면 하는 바램으로 이 도구를 제작하였습니다. 다시 말씀드리자면, 이상한 점을 발견하신다면 우리에게 연락해주세요. 가능한 빨리 답변드리겠습니다. 감사합니다! ',

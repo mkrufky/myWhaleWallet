@@ -3,8 +3,8 @@
 <head>
 <meta charset="utf-8">
 <title>MyWhaleWallet.com</title>
-<meta name="description" content="MyWhaleallet.com is a free, open-source, client-side interface for generating WhaleCoin wallets &amp; interacting with the blockchain easily &amp; securely. Double-check the URL ( .com ) before unlocking your wallet.">
-<link rel="canonical" href="https://www.myetherwallet.com" />
+<meta name="description" content="MyWhaleWallet.com is a free, open-source, client-side interface for generating WhaleCoin wallets &amp; interacting with the WhaleCoin blockchain easily &amp; securely. Double-check the URL ( .com ) before unlocking your wallet.">
+<link rel="canonical" href="https://www.mywhalewallet.com" />
 <meta name="viewport" content="width=device-width, initial-scale=1">
 <link rel="stylesheet" href="css/etherwallet-master.min.css">
 <script type="text/javascript" src="js/etherwallet-static.min.js"></script>
@@ -16,19 +16,19 @@
 <link rel="mask-icon" href="images/fav/safari-pinned-tab.svg" color="#2f99b0">
 <link rel="shortcut icon" href="images/fav/favicon.ico">
 <meta name="apple-mobile-web-app-title" content="MyWhaleWallet &middot; Save the Whales!">
-<meta name="application-name" content="MyEtherWallet">
+<meta name="application-name" content="MyWhaleWallet">
 <meta name="msapplication-config" content="images/fav/browserconfig.xml">
 <meta name="theme-color" content="#1d6986">
 <meta name="google-site-verification" content="IpChQ00NYUQuNs_7Xs6xlnSdzalOlTUYbBsr8f7OpvM" />
-<meta property="og:url" content="https://www.myetherwallet.com" />
-<meta property="og:title" content="MyEtherWallet.com  &middot; Your Key to Ethereum" />
+<meta property="og:url" content="https://www.mywhalewallet.com" />
+<meta property="og:title" content="MyWhaleWallet.com  &middot; Your Key to WhaleCoin" />
 <meta property="og:image" content="/images/myetherwallet-logo-banner.png" />
 <meta property="og:image" content="/images/myetherwallet-logo.png" />
 <meta property="og:image" content="/images/myetherwallet-logo-square.png" />
 <meta property="og:image" content="/images/myetherwallet-banner-fun.jpg" />
-<meta property="og:description" content="MyWhaleallet.com is a free, open-source, client-side interface for generating WhaleCoin wallets &amp; interacting with the blockchain easily &amp; securely. Double-check the URL ( .com ) before unlocking your wallet." />
-<script type='application/ld+json'>{"@context":"http://schema.org","@type":"Organization","@id":"#organization","url":"https://www.myetherwallet.com/","name":"MyEtherWallet",
-"logo":"https://myetherwallet.com/images/myetherwallet-logo-banner.png","description": "MyWhaleallet.com is a free, open-source, client-side interface for generating WhaleCoin wallets &amp; more. Interact with the Ethereum blockchain easily &amp; securely. Double-check the URL ( .com ) before unlocking your wallet.","sameAs":["https://www.myetherwallet.com/","https://chrome.google.com/webstore/detail/myetherwallet-cx/nlbmnnijcnlegkjjpcfjclmcfggfefdm","https://www.facebook.com/MyEtherWallet/","https://twitter.com/myetherwallet","https://medium.com/@myetherwallet_96408","https://myetherwallet.groovehq.com/help_center","https://github.com/kvhnuke/etherwallet","https://github.com/MyEtherWallet","https://kvhnuke.github.io/etherwallet/","https://github.com/kvhnuke/etherwallet/releases/latest","https://github.com/409H/EtherAddressLookup","https://myetherwallet.slack.com/","https://myetherwallet.herokuapp.com/","https://www.reddit.com/r/MyEtherWallet/","https://www.reddit.com/user/insomniasexx/","https://www.reddit.com/user/kvhnuke/","https://www.reddit.com/user/myetherwallet"]}</script>
+<meta property="og:description" content="MyWhaleWallet.com is a free, open-source, client-side interface for generating WhaleCoin wallets &amp; interacting with the blockchain easily &amp; securely. Double-check the URL ( .com ) before unlocking your wallet." />
+<script type='application/ld+json'>{"@context":"http://schema.org","@type":"Organization","@id":"#organization","url":"https://www.myWhaleWallet.com/","name":"MyWhaleWallet",
+"logo":"https://mywhalewallet.com/images/myetherwallet-logo-banner.png","description": "MyWhaleWallet.com is a free, open-source, client-side interface for generating WhaleCoin wallets &amp; more. Interact with the WhaleCoin blockchain easily &amp; securely. Double-check the URL ( .com ) before unlocking your wallet.","sameAs":["https://www.mywhalewallet.com/"]}</script>
 </head>
 <body>
 <header class="{{curNode.name}} {{curNode.service}} {{curNode.service}} nav-index-{{gService.currentTab}}" aria-label="header" ng-controller='tabsCtrl' >
@@ -46,12 +46,12 @@
     <section class="container">
       @@if (site === 'mew' ) {
         <a class="brand" href="/" aria-label="Go to homepage">
-          <img src="images/logo-whale.png"   height="64px" width="245px" alt="MyEtherWallet" />
+          <img src="images/logo-whale.png"   height="64px" width="245px" alt="MyWhaleWallet" />
         </a>
       }
       @@if (site === 'cx'  ) {
         <a class="brand" href="/cx-wallet.html" aria-label="Go to homepage">
-          <img src="images/logo-myetherwalletcx.svg" height="64px" width="245px" alt="MyEtherWallet" />
+          <img src="images/logo-myetherwalletcx.svg" height="64px" width="245px" alt="MyWhaleWallet" />
         </a>
       }
       <div class="tagline">
@@ -103,7 +103,7 @@
               <p class="small col-xs-4 text-center">Fast</p>
               <p class="small col-xs-4 text-right">Fast AF</p>
               <p class="small" style="white-space:normal;font-weight:300;margin: 2rem 0 0;" translate="GAS_PRICE_Desc"></p>
-              <a class="small" translate="x_ReadMore" href="https://myetherwallet.groovehq.com/knowledge_base/topics/what-is-gas" target="_blank" rel="noopener"></a>
+              <a class="small" translate="x_ReadMore" href="https://mywhalewallet.groovehq.com/knowledge_base/topics/what-is-gas" target="_blank" rel="noopener"></a>
             </div>
           </ul>
         </span>
@@ -138,7 +138,7 @@
         @@if (site === 'cx' ) {
         <li ng-repeat="tab in tabNames track by $index" class="nav-item {{tab.name}}" ng-class="{active: $index==gService.currentTab}" ng-show="tab.cx" ng-click="tabClick($index)"> <a tabindex="0" aria-label="nav item: {{tab.name | translate}}" translate="{{tab.name}}"></a></li>
         }
-        <li class="nav-item help"><a href="https://myetherwallet.groovehq.com/help_center" target="_blank" rel="noopener">Help</a></li>
+        <li class="nav-item help"><a href="https://mywhalewallet.groovehq.com/help_center" target="_blank" rel="noopener">Help</a></li>
       </ul>
     </div>
     <a aria-hidden="true" ng-show="showRightArrow" class="nav-arrow-right" ng-click="scrollRight(100);" ng-mouseover="scrollHoverIn(false,2);" ng-mouseleave="scrollHoverOut()">&#187;</a>
