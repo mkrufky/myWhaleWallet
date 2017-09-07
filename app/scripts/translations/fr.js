@@ -18,7 +18,7 @@ x_TxHash                    : 'Empreinte (_hash_) de TX',
 NAV_CheckTxStatus           : 'Vérifier statut TX',
 NAV_TxStatus                : 'Statut de la TX',
 tx_Details                  : 'Détails de transaction',
-tx_Summary                  : 'Pendant des périodes de volume important (comme pendant les ICOs) les transactions peuvent rester en attente des heures, voir des jours. Cet outil cherche à vous donner la possibilité de trouver et "annuler" / remplacer ces transactions. ** Ce n\'est pas quelque chose de possible normalement. Vous ne devriez pas vous y fier et cela ne marchera que lorsque les pools de transactions sont remplis. [Nous vous recommandons d\'en lire plus sur cet outil ici.](https://myetherwallet.groovehq.com/knowledge_base/topics/how-can-i-check-on-the-status-of-my-transaction-can-i-cancel-override-overwrite-replace-or-do-anything-once-a-transaction-has-been-sent)**',
+tx_Summary                  : 'Pendant des périodes de volume important (comme pendant les ICOs) les transactions peuvent rester en attente des heures, voir des jours. Cet outil cherche à vous donner la possibilité de trouver et "annuler" / remplacer ces transactions. ** Ce n\'est pas quelque chose de possible normalement. Vous ne devriez pas vous y fier et cela ne marchera que lorsque les pools de transactions sont remplis. [Nous vous recommandons d\'en lire plus sur cet outil ici.](https://mywhalewallet.groovehq.com/knowledge_base/topics/how-can-i-check-on-the-status-of-my-transaction-can-i-cancel-override-overwrite-replace-or-do-anything-once-a-transaction-has-been-sent)**',
 tx_notFound                 : 'Pas de transaction trouvée', //transaction not found
 tx_notFound_1               : 'Cette TX est introuvable dans le pool de TX du nœud auquel vous êtes connecté.',
 tx_notFound_2               : 'Si vous venez d\'envoyer la transaction, veuillez attendre 15 secondes et cliquez une nouvelle fois sur  le bouton "Vérifier statut TX". ',
@@ -31,7 +31,7 @@ tx_foundInPending_3         : 'Il existe une chance que vous puissiez "annuler" 
 tx_FoundOnChain             : 'Transaction trouvée',
 tx_FoundOnChain_1           : 'Votre transaction a été minée avec succès et se trouve sur la blockchain.',
 tx_FoundOnChain_2           : '**Si vous voyez un `( ! )` rouge, un message d\'erreur `BAD INSTRUCTION` ou `OUT OF GAS`**, cela signifie que votre transaction n\'a pas été *envoyée*. Vous ne pouvez pas annuler ou remplacer cette transaction. A la place, envoyez une nouvelle transaction. Si vous avez reçu une erreur de type "Out of Gas", vous devriez doubler la limite de gaz que vous aviez spécifiée.',
-tx_FoundOnChain_3           : '**Si vous ne voyez pas d\'erreur, votre transaction a été envoyée avec succès.** Vos ETH ou Tokens sont à l\'endroit où vous les avez envoyés. Si vous ne voyez pas ces ETH ou Tokens dans votre autre portefeuille ou compte de place d\'échange, et si cela fait plus de 24 heures, veuillez [contacter ce service](https://myetherwallet.groovehq.com/knowledge_base/topics/i-have-a-question-but-its-not-about-myetherwallet-dot-com-what-do-i-do). Envoyez-leur le *lien* vers votre transaction et demandez, poliment, d\'examiner votre situation.',
+tx_FoundOnChain_3           : '**Si vous ne voyez pas d\'erreur, votre transaction a été envoyée avec succès.** Vos ETH ou Tokens sont à l\'endroit où vous les avez envoyés. Si vous ne voyez pas ces ETH ou Tokens dans votre autre portefeuille ou compte de place d\'échange, et si cela fait plus de 24 heures, veuillez [contacter ce service](https://mywhalewallet.groovehq.com/knowledge_base/topics/i-have-a-question-but-its-not-about-myetherwallet-dot-com-what-do-i-do). Envoyez-leur le *lien* vers votre transaction et demandez, poliment, d\'examiner votre situation.',
 
 /* Gen Wallet Updates */
 GEN_Help_1                  : 'Utiliser votre',
@@ -45,7 +45,7 @@ GEN_Help_8                  : 'Pas de téléchargement? ',
 GEN_Help_9                  : 'Essayez Google Chrome ',
 GEN_Help_10                 : 'Clic droit & enregistrer sous. Nom de fichier: ',
 GEN_Help_11                 : 'N\'ouvrez pas ce fichier sur votre ordinateur ',
-GEN_Help_12                 : 'Utilisez-le pour déverouiller votre portefeuille avec MyEtherWallet (ou Mist, Geth, Parity et autres wallet clients.) ',
+GEN_Help_12                 : 'Utilisez-le pour déverouiller votre portefeuille avec MyWhaleWallet(ou Mist, Geth, Parity et autres wallet clients.) ',
 GEN_Help_13                 : 'Comment sauvegarder votre fichier Keystore ',
 GEN_Help_14                 : 'Quels sont ces différents formats? ',
 GEN_Help_15                 : 'Eviter la perte &amp; ou le vol de vos biens.',
@@ -60,7 +60,7 @@ GEN_Unlock                  : 'Déverouillez votre portefeuille pour voir votre 
 GAS_PRICE_Desc              : 'Le prix du gaz est le montant que vous payez par unité de gaz. `frais de TX  = prix du gaz * limite en gaz` & est payé aux mineurs pour inclure votre transaction à un bloc. Prix de gaz plus haut = transaction plus rapide, mais plus coûteuse. Le prix par défaut est de `21 GWEI`.',
 GAS_LIMIT_Desc              : 'La limite en gaz est le montant de gaz à envoyer avec votre transaction. `frais de TX  = prix du gaz * limite en gaz` et est payé aux mineurs pour inclure votre transaction à un bloc. Augmenter ce nombre n\'exécutera pas votre transaction plus rapidement. Envoyer ETH = `21000`. Envoyer des Tokens = ~`200000`.',
 NONCE_Desc                  : 'Le nonce est le nombre de transactions envoyées depuis une adresse. Il fait en sorte que les transactions sont envoyées en ordre et pas plus d\'une fois.',
-TXFEE_Desc                  : 'Les frais de transaction sont payés aux mineurs pour inclure votre transaction dans un bloc. Cela représente le `gas limit` * le `gas price`. [Vous pouvez convertir GWEI -> ETH ici](https://www.myetherwallet.com/helpers.html)',
+TXFEE_Desc                  : 'Les frais de transaction sont payés aux mineurs pour inclure votre transaction dans un bloc. Cela représente le `gas limit` * le `gas price`. [Vous pouvez convertir GWEI -> ETH ici](https://www.mywhalewallet.com/helpers.html)',
 
 
 /* Navigation*/
@@ -131,7 +131,7 @@ sidebar_AccountBal          : 'Solde du compte ',
 sidebar_TokenBal            : 'Solde en tokens ',
 sidebar_Equiv               : 'Valeur correspondante ',
 sidebar_TransHistory        : 'Historique des transactions ',
-sidebar_donation            : 'MyEtherWallet est un service gratuit et open source respectueux de votre vie privée et de votre sécurité. Plus nous recevons de donations, plus nous dédions du temps à développer de nouvelles fonctions, à écouter vos retours et à vous fournir ce dont vous avez besoin. Nous ne sommes que deux personnes qui essayent de changer le monde. Aidez-nous! ',
+sidebar_donation            : 'MyWhaleWallet est un service gratuit et open source respectueux de votre vie privée et de votre sécurité. Plus nous recevons de donations, plus nous dédions du temps à développer de nouvelles fonctions, à écouter vos retours et à vous fournir ce dont vous avez besoin. Nous ne sommes que deux personnes qui essayent de changer le monde. Aidez-nous! ',
 sidebar_donate              : 'Faire une donation ',
 sidebar_thanks              : 'MERCI !!! ',
 sidebar_DisplayOnTrezor     : 'Afficher l\'adresse sur TREZOR',
@@ -273,7 +273,7 @@ MYWAL_Edit_2                : 'Modifier le portefeuille ',
 MYWAL_Name                  : 'Nom du portefeuille ',
 MYWAL_Content_1             : 'Attention ! Vous êtes sur le point de supprimer votre portefeuille ',
 MYWAL_Content_2             : 'Assurez-vous d\'avoir bien **sauvegardé la clé privée/ fichier JSON et le mot de passe** associé à ce portefeuille avant de le supprimer. ',
-MYWAL_Content_3             : 'Si vous voulez utiliser ce portefeuille avec MyEtherWallet CX à l\'avenir, vous devrez le rajouter manuellement en utilisant la clé privée/fichier JSON et le mot de passe. ',
+MYWAL_Content_3             : 'Si vous voulez utiliser ce portefeuille avec MyWhaleWalletCX à l\'avenir, vous devrez le rajouter manuellement en utilisant la clé privée/fichier JSON et le mot de passe. ',
 
 /* View Wallet Details */
 VIEWWALLET_Subtitle         : 'Ceci vous permet de télécharger plusieurs versions des clefs privées et de ré-imprimer votre portefeuille papier. Vous devrez le faire pour [importer votre compte dans Geth/Mist](http://ethereum.stackexchange.com/questions/465/how-to-import-a-plain-private-key-into-geth/). Si vous voulez consulter votre solde, nous recommandons d\'utiliser un explorateur de blockchain comme [etherscan.io](http://etherscan.io/). ',
@@ -294,8 +294,8 @@ ADD_Ledger_2                : 'Ouvrez l\'application Ethereum (ou une applicatio
 ADD_Ledger_3                : 'Vérifiez que l\'option Browser Support est activée dans Settings ',
 ADD_Ledger_scan             : 'Se connecter au Ledger Wallet ',
 ADD_Ledger_4                : 'Si l\'option Browser Support n\'est pas présente dans Settings, vérifiez que vous avez le [Firmware >1.2](https://www.ledgerwallet.com/apps/manager) ',
-ADD_Ledger_0a               : 'Réouvrir MyEtherWallet sur une connexion sécurisée (SSL) ',
-ADD_Ledger_0b               : 'Réouvrir MyEtherWallet avec [Chrome](https://www.google.com/chrome/browser/desktop/) ou [Opera](https://www.opera.com/) ',
+ADD_Ledger_0a               : 'Réouvrir MyWhaleWalletsur une connexion sécurisée (SSL) ',
+ADD_Ledger_0b               : 'Réouvrir MyWhaleWalletavec [Chrome](https://www.google.com/chrome/browser/desktop/) ou [Opera](https://www.opera.com/) ',
 
 ADD_MetaMask                : 'Connexion à MetaMask ',
 
@@ -304,8 +304,8 @@ ADD_Trezor_scan             : 'Connexion au TREZOR ',
 ADD_Trezor_select           : 'Ceci est une graine (_seed_) TREZOR ',
 ADD_Trezor_select           : 'Ceci est une _seed_ TREZOR ',
 x_DigitalBitbox             : 'Digital Bitbox ',
-ADD_DigitalBitbox_0a        : 'Réouvrir MyEtherWallet sur une connexion sécurisée (SSL) ',
-ADD_DigitalBitbox_0b        : 'Réouvrir MyEtherWallet avec [Chrome](https://www.google.com/chrome/browser/desktop/) ou [Opera](https://www.opera.com/) ',
+ADD_DigitalBitbox_0a        : 'Réouvrir MyWhaleWalletsur une connexion sécurisée (SSL) ',
+ADD_DigitalBitbox_0b        : 'Réouvrir MyWhaleWalletavec [Chrome](https://www.google.com/chrome/browser/desktop/) ou [Opera](https://www.opera.com/) ',
 ADD_DigitalBitbox_scan      : 'Se connecter au Digital Bitbox ',
 
 /* Chrome Extension */
@@ -315,7 +315,7 @@ CX_quicksend                : 'Envoi rapide ', // if no appropriate translation,
 /* Misc *//* Node Switcher */
 NODE_Title                  : 'Installer votre nœud personnalisé',
 NODE_Subtitle               : 'Pour se connecter à un nœud local…',
-NODE_Warning                : 'Votre nœud doit être en HTTPS pour vous y connecter via MyEtherWallet.com. Vous pouvez [télécharger le repo MyEtherWallet et le lancer localement](https://github.com/kvhnuke/etherwallet/releases/latest) pour vous connecter à un nœud quelconque, ou obtenir un certificat SSL gratuit via [LetsEncrypt](https://letsencrypt.org/)',
+NODE_Warning                : 'Votre nœud doit être en HTTPS pour vous y connecter via MyEtherWallet.com. Vous pouvez [télécharger le repo MyWhaleWalletet le lancer localement](https://github.com/kvhnuke/etherwallet/releases/latest) pour vous connecter à un nœud quelconque, ou obtenir un certificat SSL gratuit via [LetsEncrypt](https://letsencrypt.org/)',
 NODE_Name                   : 'Nom du nœud',
 NODE_Port                   : 'Port du nœud',
 NODE_CTA                    : 'Sauvegarder et utiliser un nœud personnalisé',
@@ -385,14 +385,14 @@ ERROR_24                    : 'Veuillez entrer un port valide ',
 ERROR_25                    : 'Veuillez entrer un ID de chaîne valide ',
 ERROR_26                    : 'Veuillez entrer une ABI valide ',
 ERROR_27                    : 'Montant minimum : 0.01. Montant maximum : ',
-ERROR_28                    : '**Vous avez besoin de votre fichier Keystore et du mot de passe** (ou de la clé privée) pour accéder à ce portefeuille dans le futur. Merci de le télécharger et d\'en faire une sauvegarde externe ! Il n\'existe aucun moyen de récupérer un portefeuille si vous ne le sauvegardez pas. Merci de lire la [page d\'Aide](https://www.myetherwallet.com/#help) pour plus de détails. ',
+ERROR_28                    : '**Vous avez besoin de votre fichier Keystore et du mot de passe** (ou de la clé privée) pour accéder à ce portefeuille dans le futur. Merci de le télécharger et d\'en faire une sauvegarde externe ! Il n\'existe aucun moyen de récupérer un portefeuille si vous ne le sauvegardez pas. Merci de lire la [page d\'Aide](https://www.mywhalewallet.com/#help) pour plus de détails. ',
 ERROR_29                    : 'Veuillez entrer un utilisateur et mot de passe valide ',
 ERROR_30                    : 'Veuillez entrer un nom ENS valide ',
 ERROR_31                    : 'Phrase secrète invalide ',
 ERROR_32                    : 'Connexion au nœud impossible. Rafraîchissez la page ou essayez un nœud différent (dans le coin en haut à droite), vérifiez les réglages de votre firewall. S\'il s\'agit d\'un nœud personnalisé, vérifiez votre configuration.', // 32
 ERROR_33                    : 'Le portefeuille que vous avez déverrouillé ne correspond pas à l\'adresse du propriétaire. ', // 33
 ERROR_34                    : 'Le nom que vous tentez de révéler ne correspond pas au nom que vous avez entré. ', // 34
-ERROR_35                    : 'L\'adresse d\'entrée n\'a pas de somme de contrôle. <a href="https://myetherwallet.groovehq.com/knowledge_base/topics/not-checksummed-shows-when-i-enter-an-address" target="_blank" rel="noopener"> Plus d\'info</a>', // 35
+ERROR_35                    : 'L\'adresse d\'entrée n\'a pas de somme de contrôle. <a href="https://mywhalewallet.groovehq.com/knowledge_base/topics/not-checksummed-shows-when-i-enter-an-address" target="_blank" rel="noopener"> Plus d\'info</a>', // 35
 ERROR_36                    : 'Entrez une empreinte (_hash_) de TX valide', // 36
 ERROR_37                    : 'Entrez une chaîne hex valide (0-9, a-f)', // 37
 
@@ -431,7 +431,7 @@ PARITY_InvalidGasLimit      : "Le gaz fourni est en-deçà de la limite.",
 /* Tranlsation Info */
 translate_version           : '0.3 ',
 Translator_Desc             : 'Merci à nos traducteurs ',
-TranslatorName_1            : '[Simon P](https://www.myetherwallet.com/?gaslimit=21000&to=0x89a18eE46b5aabC62e94b1830881887D04C687f3&value=1.0#send-transaction) · ',
+TranslatorName_1            : '[Simon P](https://www.mywhalewallet.com/?gaslimit=21000&to=0x89a18eE46b5aabC62e94b1830881887D04C687f3&value=1.0#send-transaction) · ',
 TranslatorAddr_1            : '0x89a18eE46b5aabC62e94b1830881887D04C687f3 ',
 /* Translator 1             : Translation in French. Début de la traduction, il reste encore du travail... Je continue dès que j'ai un peu de temps :) */
 TranslatorName_2            : 'Jean Zundel · ',
@@ -449,14 +449,14 @@ TranslatorAddr_5            : '',
 
 /* Help - Nothing after this point has to be translated. If you feel like being extra helpful, go for it. */
 HELP_Warning                : 'Si vous avez créé un portefeuille -ou- téléchargé le repo avant **le 31 déc. 2015**, merci de vérifier vos portefeuilles / de télécharger une nouvelle version du repo. Cliquez ici pour plus de détails. ',
-HELP_Desc                   : 'Il manque quelque chose ? Vous avez d\'autres questions ? [Contactez-nous](mailto:support@myetherwallet.com), et non seulement nous allons vous répondre mais aussi mettre à jour cette page afin qu\'elle soit plus utile à tout le monde à l\'avenir ! ',
+HELP_Desc                   : 'Il manque quelque chose ? Vous avez d\'autres questions ? [Contactez-nous](mailto:support@mywhalewallet.com), et non seulement nous allons vous répondre mais aussi mettre à jour cette page afin qu\'elle soit plus utile à tout le monde à l\'avenir ! ',
 HELP_Remind_Title           : 'Quelques rappels : ',
-HELP_Remind_Desc_1          : '**Ethereum, MyEtherWallet.com & MyEtherWallet CX, et certaines des bibliothèques Javascript sous-jacentes que nous employons sont en cours de développement.** Bien que nous les ayons testés intensivement et que des dizaines de milliez de portefeuilles aient été créés avec succès dans le monde entier, il existe toujours une faible possibilité qu\'un incident se produise conduisant à la perte de vos ETH. N\'investissez pas plus que ce que vous êtes prêt à perdre et soyez prudent. En cas d\'accident, nous en serons désolés mais **nous ne sommes pas responsables d\'une éventuelle perte de cet Ether**. ',
-HELP_Remind_Desc_2          : 'MyEtherWallet.com & MyEtherWallet CX ne sont pas des "portefeuilles web". Vous ne créez pas un compte, vous ne nous donnez pas votre Ether en dépôt. Aucune donnée ne sort de votre ordinateur ou votre navigateur. Nous vous facilitons la création, la sauvegarde et l\'accès à vos informations ainsi que l\'interaction avec la blockchain. ',
+HELP_Remind_Desc_1          : '**Ethereum, MyEtherWallet.com & MyWhaleWalletCX, et certaines des bibliothèques Javascript sous-jacentes que nous employons sont en cours de développement.** Bien que nous les ayons testés intensivement et que des dizaines de milliez de portefeuilles aient été créés avec succès dans le monde entier, il existe toujours une faible possibilité qu\'un incident se produise conduisant à la perte de vos ETH. N\'investissez pas plus que ce que vous êtes prêt à perdre et soyez prudent. En cas d\'accident, nous en serons désolés mais **nous ne sommes pas responsables d\'une éventuelle perte de cet Ether**. ',
+HELP_Remind_Desc_2          : 'MyEtherWallet.com & MyWhaleWalletCX ne sont pas des "portefeuilles web". Vous ne créez pas un compte, vous ne nous donnez pas votre Ether en dépôt. Aucune donnée ne sort de votre ordinateur ou votre navigateur. Nous vous facilitons la création, la sauvegarde et l\'accès à vos informations ainsi que l\'interaction avec la blockchain. ',
 HELP_Remind_Desc_3          : 'Si vous ne sauvegardez pas votre clef privée et votre mot de passe, il n\'existe aucun moyen de regagner l\'accès à votre portefeuille et aux fonds qu\'il détient. Sauvegardez-les en plusieurs endroits et non uniquement sur votre ordinateur ! ',
 
 HELP_0_Title                : '0) Je suis nouveau. Que puis-je faire ? ',
-HELP_0_Desc_1               : 'MyEtherWallet vous donne la possibilité de générer de nouveaux portefeuilles pour stocker votre Ether par vous-même et pas sur un *exchange.* Ce processus ne s\'exécute que sur votre ordinateur, pas sur nos serveurs. Quand vous générez un nouveau portefeuille, **il est donc de votre responsabilité de le sauvegarder de manière sécurisée.** ',
+HELP_0_Desc_1               : 'MyWhaleWallet vous donne la possibilité de générer de nouveaux portefeuilles pour stocker votre Ether par vous-même et pas sur un *exchange.* Ce processus ne s\'exécute que sur votre ordinateur, pas sur nos serveurs. Quand vous générez un nouveau portefeuille, **il est donc de votre responsabilité de le sauvegarder de manière sécurisée.** ',
 HELP_0_Desc_2               : 'Créez un nouveau portefeuille. ',
 HELP_0_Desc_3               : 'Sauvegardez le portefeuille. ',
 HELP_0_Desc_4               : 'Vérifiez que vous avez accès à ce nouveau portefeuille et que vous avez correctement sauvé toutes les informations nécessaires. ',
@@ -511,7 +511,7 @@ HELP_4_Desc_11              : 'Cliquez sur le bouton bleu "Envoyer la transactio
 HELP_4_Desc_12              : 'Une fenêtre pop-up apparaîtra. Vérifiez que le montant et que l\'adresse de destination sont corrects. Puis cliquez sur "Oui, j\'en suis sûr ! Effectuer la transaction. ',
 HELP_4_Desc_13              : 'La transaction sera soumise. Son identifiant sera affiché. Vous pouvez cliquer sur l\'identifiant pour la voir sur la blockchain. ',
 
-HELP_4CX_Title              : '4) Comment puis-je envoyer de l\'Ether avec MyEtherWallet CX ? ',
+HELP_4CX_Title              : '4) Comment puis-je envoyer de l\'Ether avec MyWhaleWalletCX ? ',
 HELP_4CX_Desc_1             : 'D\'abord, vous devez ajouter un portefeuille. Ceci fait, deux possibilités s\'offrent à vous : la fonctionnalité "Envoi rapide" de l\'icône de l\'extension Chrome ou la page "Envoyer des Ether et des Tokens". ',
 HELP_4CX_Desc_2             : 'Envoi rapide : ',
 HELP_4CX_Desc_3             : 'Cliquez sur l\'icône de l\'extension Chrome. ',
@@ -528,7 +528,7 @@ HELP_4CX_Desc_12            : 'Avec la page "Envoyer des Ether et des Tokens" ',
 HELP_5_Title                : '5) Comment puis-je lancer MyEtherWallet.com hors ligne/localement ? ',
 HELP_5_Desc_1               : 'Vous pouvez lancer MyEtherWallet.com sur votre ordinateur au lieu de passer par les serveurs GitHub. Vous pouvez générer un portefeuille en restant totalement hors ligne et envoyer des transactions depuis la page "Transaction hors ligne". ',
 HELP_5_Desc_7               : 'MyEtherWallet.com tourne maintenant complètement sur votre ordinateur. ',
-HELP_5_Desc_8               : 'Au cas où cela ne vous soit pas familier, vous devez conserver l\'intégralité du dossier pour faire tourner le site web et non uniquement `index.html`. Ne touchez à rien, ne déplacez rien dans le dossier. Si vous stockez une sauvegarde du repo MyEtherWallet pour l\'avenir, nous vous recommandons ne ne stocker que le ZIP afin d\'être sûr que le contenu du dossier restera intact. ',
+HELP_5_Desc_8               : 'Au cas où cela ne vous soit pas familier, vous devez conserver l\'intégralité du dossier pour faire tourner le site web et non uniquement `index.html`. Ne touchez à rien, ne déplacez rien dans le dossier. Si vous stockez une sauvegarde du repo MyWhaleWalletpour l\'avenir, nous vous recommandons ne ne stocker que le ZIP afin d\'être sûr que le contenu du dossier restera intact. ',
 HELP_5_Desc_9               : 'Comme nous améliorons constamment MyEtherWallet.com, nous vous recommandons de mettre régulièrement à jour votre version sauvegardée. ',
 
 HELP_5CX_Title              : '5) Comment puis-je installer cette extension depuis le repo au lieu du Chrome Store ? ',
@@ -559,15 +559,15 @@ HELP_7_Desc_14              : 'Une fenêtre pop-up va apparaître. Vérifiez que
 HELP_7_Desc_15              : 'La transaction est alors soumise et l\'identifiant de transaction est affiché. Vous pouvez cliquer dessus pour le voir sur la blockchain. ',
 
 HELP_8_Title                : '8) Que se passe-t-il si votre site tombe ? ',
-HELP_8_Desc_1               : 'MyEtherWallet n\'est pas un portefeuille sur le web. Vous n\'avez pas de login et rien n\'est jamais stocké sur nos serveurs. Ce n\'est qu\'une interface qui vous permet d\'interagir avec la blockchain. ',
-HELP_8_Desc_2               : 'Si MyEtherWallet.com tombe, vous devrez trouver un autre moyen (comme geth ou Ethereum Wallet / Mist) pour faire la même chose. Mais vous n\'aurez pas à "récupérer" votre Ether depuis MyEtherWallet parce qu\'il ne se trouve pas dans MyEtherWallet. Il est chez vous, dans le portefeuille que vous avez généré par notre site. ',
+HELP_8_Desc_1               : 'MyWhaleWallet n\'est pas un portefeuille sur le web. Vous n\'avez pas de login et rien n\'est jamais stocké sur nos serveurs. Ce n\'est qu\'une interface qui vous permet d\'interagir avec la blockchain. ',
+HELP_8_Desc_2               : 'Si MyEtherWallet.com tombe, vous devrez trouver un autre moyen (comme geth ou Ethereum Wallet / Mist) pour faire la même chose. Mais vous n\'aurez pas à "récupérer" votre Ether depuis MyWhaleWalletparce qu\'il ne se trouve pas dans MyEtherWallet. Il est chez vous, dans le portefeuille que vous avez généré par notre site. ',
 HELP_8_Desc_3               : 'Vous pouvez maintenant importer facilement votre clef privée non chiffrée et vos fichiers (chiffrés) au format Geth/Mist, directement dans geth / Ethereum Wallet / Mist. Voir question #12 ci-dessous. ',
-HELP_8_Desc_4               : 'De plus, la probabilité que nous laissions tomber MyEtherWallet approche zéro. Il ne nous coûte presque rien de le maintenir comme nous n\'y stockons aucune information. Si le domaine venait à être perdu, le logiciel sera toujours disponible publiquement sur [https://github.com/kvhnuke/etherwallet](https://github.com/kvhnuke/etherwallet/tree/gh-pages). Vous pourrez y télécharger le ZIP et le faire tourner localement. ',
+HELP_8_Desc_4               : 'De plus, la probabilité que nous laissions tomber MyWhaleWalletapproche zéro. Il ne nous coûte presque rien de le maintenir comme nous n\'y stockons aucune information. Si le domaine venait à être perdu, le logiciel sera toujours disponible publiquement sur [https://github.com/kvhnuke/etherwallet](https://github.com/kvhnuke/etherwallet/tree/gh-pages). Vous pourrez y télécharger le ZIP et le faire tourner localement. ',
 
-HELP_8CX_Title              : '8) Que se passe-t-il si MyEtherWallet CX disparaît ? ',
+HELP_8CX_Title              : '8) Que se passe-t-il si MyWhaleWalletCX disparaît ? ',
 HELP_8CX_Desc_1             : 'D\'abord, toutes les données sont sauvegardées sur votre ordinateur et non sur nos serveurs. Cela peut paraître étonnant mais, quand vous regardez sur l\'extension Chrome, ce que vous voyez *ne se trouve pas* sur nos serveurs ; tout est stocké sur votre propre ordinateur. ',
-HELP_8CX_Desc_2             : 'Cela dit, il est **très important** que vous sauvegardiez toutes les données de tous les portefeuilles générés par MyEtherWallet CX. De cette manière, si quoi que ce soit arrivait à MyEtherWallet CX ou à votre ordinateur, vous conserveriez toutes les informations nécessaires pour accéder à votre Ether. Voir #2a pour la sauvegarde de vos portefeuilles. ',
-HELP_8CX_Desc_3             : 'Si, pour une raison quelconque, MyEtherWallet CX disparaissait du Chrome Store, vous pourrez en trouver le source sur Github et le charger manuellement. Voir #5 ci-dessus. ',
+HELP_8CX_Desc_2             : 'Cela dit, il est **très important** que vous sauvegardiez toutes les données de tous les portefeuilles générés par MyWhaleWalletCX. De cette manière, si quoi que ce soit arrivait à MyWhaleWalletCX ou à votre ordinateur, vous conserveriez toutes les informations nécessaires pour accéder à votre Ether. Voir #2a pour la sauvegarde de vos portefeuilles. ',
+HELP_8CX_Desc_3             : 'Si, pour une raison quelconque, MyWhaleWalletCX disparaissait du Chrome Store, vous pourrez en trouver le source sur Github et le charger manuellement. Voir #5 ci-dessus. ',
 
 HELP_9_Title                : '9) La page "Envoyer des Ether et des Tokens" est-elle hors ligne ? ',
 HELP_9_Desc_1               : 'Non. Elle a besoin de l\'internet pour obtenir le prix actuel du gaz, le nonce de votre compte et pour émettre la transaction (c\'est-à-dire "envoyer"). Cependant, elle n\'envoie que la transaction signée. Votre clef privée reste en sécurité chez vous. Nous fournissons maintenant aussi une page "Transaction hors ligne" pour vous permettre de conserver en permanence vos clefs privées sur une machine hors ligne. ',
@@ -585,8 +585,8 @@ HELP_10_Desc_9              : 'Cliquez sur le bouton "Générer la transaction s
 HELP_10_Desc_10             : 'Le champ de données sous ce bouton se remplit avec votre transaction signée. Copiez-la et revenez avec elle sur votre ordinateur en ligne. ',
 HELP_10_Desc_11             : 'Sur votre ordinateur en ligne, collez la transaction signée dans le champ texte et cliquez sur "Envoyez l\'Ether". Ceci émettra votre transaction. ',
 
-HELP_12_Title               : '12) Comment puis-je importer un portefeuille créé par MyEtherWallet dans geth / Ethereum Wallet / Mist ? ',
-HELP_12_Desc_1              : 'Avec un fichier Geth/Mist JSON de MyEtherWallet v2+.... ',
+HELP_12_Title               : '12) Comment puis-je importer un portefeuille créé par MyWhaleWalletdans geth / Ethereum Wallet / Mist ? ',
+HELP_12_Desc_1              : 'Avec un fichier Geth/Mist JSON de MyWhaleWalletv2+.... ',
 HELP_12_Desc_2              : 'Allez à la page "Visualisation d\'un portefeuille". ',
 HELP_12_Desc_3              : 'Déverrouillez votre portefeuille avec votre clef privée **chiffrée** ou votre fichier JSON. ',
 HELP_12_Desc_4              : 'Allez à la page "Mes portefeuilles". ',
@@ -619,7 +619,7 @@ HELP_12_Desc_28             : 'La prochaine fois que vous ouvrirez l\'applicatio
 HELP_13_Title               : '13) Que signifie « Fonds insuffisants. Le compte d\'où vous essayez d\'envoyer une transaction ne possède pas assez de fonds. Requis : XXXXXXXXXXXXXXXXXXX, reçu : XXXXXXXXXXXXXXXXXXX. » ? ',
 HELP_13_Desc_1              : 'Cela signifie que vous n\'avez pas assez d\'Ether sur votre compte pour couvrir les coûts en gaz. Chaque transaction (y compris pour les tokens et les contrats) demandent du gaz, et ce gaz est payé en Ether. Le nombre affiché est le montant requis pour couvrir le coût de la transaction en Wei. Prenez ce nombre, divisez-le par `1000000000000000000` et soustrayez la somme en Ether que vous essayiez d\'envoyer (si vous tentiez d\'envoyer de l\'Ether). Cela vous donnera le montant en Ether dont vous avez besoin pour que le compte effectue la transaction. ',
 
-HELP_14_Title               : '14) Certains sites randomisent (initialisent) la génération de clef privée par les mouvements de la sours. Ce n\'est pas le cas de MyEtherWallet.com. La génération de nombres aléatoires de MyEtherWallet est-elle sûre ? ',
+HELP_14_Title               : '14) Certains sites randomisent (initialisent) la génération de clef privée par les mouvements de la sours. Ce n\'est pas le cas de MyEtherWallet.com. La génération de nombres aléatoires de MyWhaleWalletest-elle sûre ? ',
 HELP_14_Desc_1              : 'Bien que l\'interception des mouvement de la souris soit jugée attractive par beaucoup, et que nous en comprenions les raisons, la réalité est que window.crypto assure plus d\'entropie que les mouvements de votre souris. L\'utilisation de ces mouvements est sûre mais nous (ainsi que de nombreux projets crypto) avons de bonnes raisons de croire en window.crypto. De plus, MyEtherWallet.com peut être utilisé sur des périphériques tactiles. Voici une [conversation entre un redditor rageur et Vitalik Buterin sur les mouvements de souris et window.crypto](https://www.reddit.com/r/ethereum/comments/2bilqg/note_there_is_a_paranoid_highsecurity_way_to/cj5sgrm) et voici [les spécifications w3 de window.crypto](https://dvcs.w3.org/hg/webcrypto-api/raw-file/tip/spec/Overview.html#dfn-GlobalCrypto). ',
 
 HELP_15_Title               : '15) Pourquoi le compte que je viens de créer n\'apparaît-il pas dans l\'explorateur de blockchain ? (i.e. : etherchain, etherscan) ',
@@ -649,7 +649,7 @@ HELP_21_Desc_6              : 'Si vous connaissez un peu Bitcoin, [ceci remettra
 HELP_21_Desc_7              : '[Si vous voulez un argumentaire un peu plus technique :](http://security.stackexchange.com/questions/25375/why-not-use-larger-cipher-keys/25392#25392) *Ces nombres n\'ont rien à voir avec la technologie des systèmes ; ce sont les maximums autorisés par la thermodynamique. Et ils impliquent clairement qu\'une attaque par brute force contre des clefs de 256 bits restera impossible jusqu\'à ce que l\'on construise des ordinateurs avec autre chose que de la matière et qu\'ils occupent autre chose que l\'espace. ',
 HELP_21_Desc_8              : 'Cela suppose bien entendu que les clefs sont générées d\'une manière totalement aléatoire avec suffisamment d\'entropie. C\'est le cas des clefs générées ici, tout comme celles de Jaxx et de Mist/geth. Les portefeuilles Ethereum sont tous assez bons de ce point de vue. Les clefs générées par des cerveaux humains ne le sont pas, car ces derniers ne sont pas capables de partir d\'un nombre parfaitement aléatoire. Il y a eu des cas d\'autres problèmes d\'entropie insuffisante ou de nombres imparfaitement aléatoires dans le monde de Bitcoin mais il s\'agit là d\'un tout autre problème qui peut attendre un peu. ',
 
-HELP_SecCX_Title            : 'Sécurité - MyEtherWallet CX ',
+HELP_SecCX_Title            : 'Sécurité - MyWhaleWalletCX ',
 HELP_SecCX_Desc_1           : 'Où cette extension sauve-t-elle mes informations ? ',
 HELP_SecCX_Desc_2           : 'Les informations stockées dans cette extension sont sauvegardée via [chrome.storage](http://chrome.storage/), c\'est à dire au même endroit que vos mots de passe dans Chrome. ',
 HELP_SecCX_Desc_3           : 'Quelles informations sont sauvegardées ? ',
@@ -661,7 +661,7 @@ HELP_Sec_Title              : 'Sécurité ',
 HELP_Sec_Desc_1             : 'Si l\'une des premières questions que vous vous posez est "Pourquoi devrais-je faire confiance à ces gens ?", c\'est une bonne démarche. Nous espérons que ce qui suit va dissiper vos craintes. ',
 HELP_Sec_Desc_2             : 'Nous avons commencé en août 2015. Si vous recherchez ["myetherwallet" sur reddit](https://www.reddit.com/search?q=myetherwallet), vous pouvez voir qu\'un nombre considérable de personnes nous utilisent sans problème. ',
 HELP_Sec_Desc_3             : 'Nous n\'allons pas prendre votre argent ou voler vos clefs privées. Il n\'y a pas de code malveillant sur ce site. En fait, les pages "Génération d\'un portefeuille" sont totalement côté client. Cela signifie que tout le code s\'éxécute sur **votre ordinateur** et n\'est jamais sauvé et/ou transmis où que ce soit. ',
-HELP_Sec_Desc_4             : 'Vérifiez l\'URL -- Ce site est servi par Github et vous pouvez en voir le code source ici : [https://github.com/kvhnuke/etherwallet/tree/gh-pages](https://github.com/kvhnuke/etherwallet/tree/gh-pages) aux [https://www.myetherwallet.com](https://www.myetherwallet.com). ',
+HELP_Sec_Desc_4             : 'Vérifiez l\'URL -- Ce site est servi par Github et vous pouvez en voir le code source ici : [https://github.com/kvhnuke/etherwallet/tree/gh-pages](https://github.com/kvhnuke/etherwallet/tree/gh-pages) aux [https://www.mywhalewallet.com](https://www.mywhalewallet.com). ',
 HELP_Sec_Desc_5             : 'Pour générer les portefeuilles, vous pouvez télécharger le [code source](https://github.com/kvhnuke/etherwallet/releases/latest). Voir #5 ci-dessus. ',
 HELP_Sec_Desc_6             : 'Lancez un test et vérifiez le type d\'activité réseau. La manière la plus simple consiste en un clic droit sur la page, puis "Inspecter". Allez à l\'onglet "Network". Générez un portefeuille de test. Vous verrez qu\'il n\'y a pas d\'activité réseau. Vous pourrez voir quelque chose se produire ressemblant à data:image/gif et data:image/png. Ce sont les QR codes en cours de génération... sur votre ordinateur. Aucun octet n\'a été transféré. ',
 HELP_Sec_Desc_8             : 'Si cet outil ne vous plaît pas, alors ne l\'utilisez surtout pas. Nous l\'avons créé pour qu\'il aide les gens à générer des portefeuilles et à effectuer des transactions sans avoir besoin de plonger dans les lignes de commandes ni faire tourner un nœud complet. À nouveau, n\'hésitez pas à nous faire part de vos doutes et nous répondrons aussi rapidement que possible. Merci ! ',
