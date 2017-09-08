@@ -166,12 +166,7 @@ globalFuncs.stripTags = function(str) {
     }
     return str;
 };
-globalFuncs.checkAndRedirectHTTPS = function() {
-    var host = "mywhalewallet.com";
-    var hostw = "https://mywhalewallet.com";
-    var path = window.location.pathname;
-    if (host == window.location.host) window.location = hostw + path;
-};
+
 globalFuncs.isStrongPass = function(password) {
     return password.length > 8;
 };
