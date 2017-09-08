@@ -54,13 +54,6 @@ var tabs = {
     mew: true,
     cx: true
   },
-  ens: {
-    id:7,
-    name: "NAV_ENS",
-    url: "ens",
-    mew: false,
-    cx: false
-  },
   txStatus: {
     id: 8,
     name: "NAV_CheckTxStatus",

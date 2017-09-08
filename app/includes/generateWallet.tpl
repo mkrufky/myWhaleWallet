@@ -21,43 +21,6 @@
       <br>
     </section>
 
-    <section class="block__help">
-      <h2>Ledger / TREZOR:</h2>
-      <ul><li>
-        <span translate="GEN_Help_1">Use your</span>
-        <a ng-click="globalService.currentTab=globalService.tabs.sendTransaction.id">Ledger or TREZOR or Digital Bitbox</a>
-        <span translate="GEN_Help_2">to access your account.</span>
-        <span translate="GEN_Help_3">Your device * is * your wallet.</span>
-      </li></ul>
-
-      <h2>Jaxx / Metamask:</h2>
-      <ul><li>
-        <span translate="GEN_Help_1">Use your</span>
-        <a ng-click="globalService.currentTab=globalService.tabs.sendTransaction.id" translate="x_Mnemonic">Mnemonic Phrase</a>
-        <span translate="GEN_Help_2">to access your account.</span>
-      </li></ul>
-
-      <h2>Mist / Geth / Parity:</h2>
-      <ul><li>
-        <span translate="GEN_Help_1">Use your</span>
-        <a ng-click="globalService.currentTab=globalService.tabs.sendTransaction.id" translate="x_Keystore2">Keystore File (UTC / JSON)</a>
-        <span translate="GEN_Help_2">to access your account.</span>
-      </li></ul>
-
-      <h2 translate="GEN_Help_4">Guides &amp; FAQ</h2>
-      <ul>
-        <li><strong>
-          <a href="https://mywhalewallet.groovehq.com/knowledge_base/topics/how-do-i-create-a-new-wallet" target="_blank" rel="noopener" translate="GEN_Help_5">
-            How to Create a Wallet
-          </a>
-        </strong></li>
-        <li><strong>
-          <a href="https://mywhalewallet.groovehq.com/knowledge_base/categories/getting-started-443" target="_blank" rel="noopener" translate="GEN_Help_6">
-            Getting Started
-          </a></strong></li>
-      </ul>
-    </section>
-
   </article>
 
 
