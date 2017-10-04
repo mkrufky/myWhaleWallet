@@ -24,8 +24,8 @@ nodes.customNodeObj = {
 nodes.nodeList = {
     'whl': {
         'name': 'WHL',
-        'blockExplorerTX': 'https://explorer.whalecoin.org/#/transaction/[[txHash]]',
-        'blockExplorerAddr': 'https://explorer.whalecoin.org/#/address/[[address]]',
+        'blockExplorerTX': 'https://explorer.whalecoin.org/transaction/[[txHash]]',
+        'blockExplorerAddr': 'https://explorer.whalecoin.org/address/[[address]]',
         'type': nodes.nodeTypes.WHL,
         'eip155': true,
         'chainId': 30375,
